@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, }
+import { BrowserRouter as Router, Routes, Route }
 import Homepage from './components/Homepage';
 
 
