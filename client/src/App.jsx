@@ -6,7 +6,9 @@ const App = () => {
   return (
     <div>
       <Router>
-        <Routes></Routes>
+        <Routes>
+          
+        </Routes>
       </Router>
     </div>
   )
