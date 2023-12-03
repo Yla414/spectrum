@@ -4,7 +4,6 @@ import Homepage from './components/components.exports'
 const App = () => {
   return (
     <div>
-      <h1>Hello world!</h1>
     </div>
   )
 }
