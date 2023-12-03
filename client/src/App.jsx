@@ -5,7 +5,7 @@ import Homepage from './components/Homepage';
 const App = () => {
   return (
     <div>
-      <Ro
+      <Router
     </div>
   )
 }
