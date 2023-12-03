@@ -1,5 +1,5 @@
 import React from 'react'
-import Homepage from './'
+import Homepage from './components/'
 
 const App = () => {
   return (
