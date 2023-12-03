@@ -1,5 +1,5 @@
 import React from 'react'
-import Home
+import Homea
 const App = () => {
   return (
     <div>
