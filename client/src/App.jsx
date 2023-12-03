@@ -1,5 +1,5 @@
 import React from 'react'
-import Ho
+import Hom
 
 const App = () => {
   return (
