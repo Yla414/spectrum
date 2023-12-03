@@ -1,6 +1,5 @@
 import React from 'react'
-import Homepage from './components/exports'
-
+i
 const App = () => {
   return (
     <div>
