@@ -1,4 +1,4 @@
-impo
+impor
 import Homepage from './components/Homepage';
 
 
