@@ -22,9 +22,9 @@ const Register = () => {
 
               const { user, token } = response.data;
 
-              dispatch(setUser(response.data.user));
-              dispatch(setToken(response.data.token));
-              
+              dispatch(setUser(user));
+              dispatch(setToken(token));
+
               navigate('/dashboard');
         } catch (error) {
             console.error('Error logging in:', error.response.data);
