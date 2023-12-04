@@ -33,7 +33,7 @@ const Register = () => {
               dispatch(setUser(user));
               dispatch(setToken(token));
 
-              localStor
+              localStorage
 
               navigate('/dashboard');
         } catch (error) {
