@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import ProtectedRoute
+import ProtectedRoute from '../../hooks/ProtectedRoute'
 
 const Dashboard = () => {
     const user = useSelector((state) => state.auth.user);
