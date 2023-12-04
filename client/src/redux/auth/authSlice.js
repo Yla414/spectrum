@@ -38,3 +38,4 @@ export const register = (userData) => async (dispatch) => {
         console.error('Registration failed!:', error);
     }
 }
+
