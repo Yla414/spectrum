@@ -19,7 +19,7 @@ const App = () => {
   }
 
   useEffect(() => {
-    const st
+    const storedToken
   }, [])
 
   return (
