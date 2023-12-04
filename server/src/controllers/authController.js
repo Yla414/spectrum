@@ -15,7 +15,7 @@ const generateToken = (user) => {
 
 const register = async (req, res) => {
     try {
-        
+        co
         // Validate and hash user password
         const salt = 10;
         const hashedPassword = await bcrypt.hash(req.body.password, salt);
