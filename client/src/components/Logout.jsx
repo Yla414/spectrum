@@ -1,5 +1,6 @@
 import React from 'react'
-import { useDi }
+import { useDispatch } from 'react-redux'
+
 
 const Logout = () => {
   return (
