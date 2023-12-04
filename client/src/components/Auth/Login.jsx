@@ -55,7 +55,7 @@ const Register = () => {
         </select>
 
         <button type="submit">Login</button>
-        <Link to={'/login'}>Login</Link>
+        <Link to={'/login'}>Register</Link>
         
       </form>
     </div>
