@@ -7,7 +7,7 @@ const Register = () => {
     const [formData, setFormData] = useState({});
 
     const handleRegister = (e) => {
-        e.preventDefau
+        e.preventDefault();
         dispatch(register(formData))
     }
 
