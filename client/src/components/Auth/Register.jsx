@@ -38,8 +38,8 @@ const Register = () => {
             <input type="email" name="email" value={formData.email} onChange={handleChange} />
         </label>
         <label>
-            password:
-            <input type="text" name="password" value={formData.password} onChange={handleChange} />
+            Password:
+            <input type="password" name="password" value={formData.password} onChange={handleChange} />
         </label>
       </form>
     </div>
