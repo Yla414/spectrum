@@ -1,5 +1,5 @@
 import React from 'react'
-import axios fro
+import axios from ''
 
 const Register = () => {
   return (
