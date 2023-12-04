@@ -25,7 +25,7 @@ const App = () => {
   // }
 
   useEffect(() => {
-    
+    c
     const storedToken = localStorage.getItem('token');
 
     if(storedToken) {
