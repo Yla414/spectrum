@@ -1,2 +1,2 @@
 import axios from 'axios';
-import { set }
+import { setUser }
