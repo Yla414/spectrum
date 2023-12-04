@@ -22,7 +22,7 @@ const Register = () => {
             dispatch(setToken(response.data.token));
             console.log(response.data);
         } catch (error) {
-            console.error('Error logging in:', error.response.data.message);
+            console.error('Error logging in:', error.response.data);
         }
     }
     
