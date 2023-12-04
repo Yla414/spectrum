@@ -18,7 +18,7 @@ dotenv.config();
 connectDB();
 
 // Routes
-app.use('/api/auth')
+app.use('/api/auth', a)
 
 app.listen(process.env.PORT, () => {
     console.log(`Connected to http://localhost:${process.env.PORT}`)
