@@ -7,7 +7,7 @@ const fetchUserDetails = async (dispatch) => {
             headers: {
                 Authorization: `Bearer ${localStorage.getItem('token')}`
             },
-        })
+        });
     } catch (error) {
         
     }
