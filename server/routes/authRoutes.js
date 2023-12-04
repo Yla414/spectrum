@@ -13,7 +13,7 @@ router.post('/register', async (req, res) => {
         // Check for existing user
         const existingUser = await User.findOne({ username });
         if(existingUser) {
-            return res.
+            return res.status
         }
     } catch (error) {
 
