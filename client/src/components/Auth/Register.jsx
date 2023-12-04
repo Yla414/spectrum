@@ -10,7 +10,7 @@ const Register = () => {
     const [role, setRole] = useState('Guest');
 
     const handleRegister = async (e) => {
-        e.preventDefault
+        e.preventDefault()
     }
     
   return (
