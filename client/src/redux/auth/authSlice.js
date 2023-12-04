@@ -1,1 +1,1 @@
-import { createSlice } from '@r';
+import { createSlice } from '@redux';
