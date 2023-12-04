@@ -1,3 +1,3 @@
 import { configureStore } from '@reduxjs/toolkit';
 
-const store = 
+const store = configureS
