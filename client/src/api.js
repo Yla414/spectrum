@@ -1,3 +1,3 @@
 import axios from 'axios';
 
-const API_BASE_URL = 't'
+const API_BASE_URL = ''
