@@ -19,7 +19,7 @@ mongoose
         console.log('MongoDB connection successful!');
         app.listen(process.env.PORT, () => {
             console.log(`Server connected to http://localhost:${process.env.PORT}`);
-            console.log(require)
+            console.log(require('crypto')crypto.randomBytes(32).toString('hex'))
         })
     })
     .catch((error) => console.log('Error connecting to MongoDB:', error));
