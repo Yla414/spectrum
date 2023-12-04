@@ -8,7 +8,7 @@ const ProtectedRoute = ({ component: Component, allowedRoles, ...rest }) => {
         <Route 
             {...rest}
             render={(props) => {
-                if(user && allowed)
+                if(user && allowedRoles)
             }}
         ></Route>
     )
