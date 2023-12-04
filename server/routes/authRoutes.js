@@ -17,7 +17,7 @@ router.post('/register', async (req, res) => {
         }
 
         // Password hashing
-        const jasjed
+        const ha
     } catch (error) {
 
     }
