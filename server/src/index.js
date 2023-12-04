@@ -14,5 +14,5 @@ app.use('/api', routes);
 mongoose
     .connect(process.env.MONGO_URI)
     .then(() => {
-        console.log('MongoDB connection successfu')
+        console.log('MongoDB connection successful')
     })
