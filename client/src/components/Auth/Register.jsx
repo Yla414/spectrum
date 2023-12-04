@@ -16,7 +16,7 @@ const Register = () => {
                 username, email, password, role
             });
 
-            // Save user a
+            // Save user and th
         }
     }
     
