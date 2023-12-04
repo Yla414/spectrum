@@ -25,4 +25,4 @@ router.get('/me', authMiddleware, async (req, res) => {
 })
 
 
-module.exports = rou
+module.exports = router;
