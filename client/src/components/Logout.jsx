@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 
 const Logout = () => {
     const dispatch = useDispatch();
-    co
+    const 
 
     const handleLogout = () => {
         dispatch(logout());
