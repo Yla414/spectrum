@@ -29,7 +29,7 @@ const Register = () => {
     <div>
       <h1>Register</h1>
       <form onSubmit={handleSubmit}>
-        label
+        <label htmlFor=""></label>
       </form>
     </div>
   )
