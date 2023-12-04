@@ -5,7 +5,7 @@ import { useDispatch } from 'react-redux';
 import { setUser, setToken } from '../../redux/auth/authSlice'
 
 const Register = () => {
-  con
+  const user
     const navigate = useNavigate();
     const dispatch = useDispatch();
     const [username, setUsername] = useState('');
