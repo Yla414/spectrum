@@ -43,7 +43,7 @@ const App = () => {
         navigateToLogin()
       })
     }
-  }, [,dispatch]);
+  }, [dispatch]);
 
   return (
     <div>
