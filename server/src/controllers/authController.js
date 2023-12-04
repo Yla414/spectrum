@@ -30,5 +30,9 @@ const register = async (req, res) => {
 }
 
 const login = async (req, res) => {
-    try
+    try {
+        
+    } catch (error) {
+        
+    }
 }
