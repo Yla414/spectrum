@@ -1,1 +1,1 @@
-const jwt = require('json')
+const jwt = require('jsonwe')
