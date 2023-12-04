@@ -20,6 +20,7 @@ const Register = () => {
         await axios.post('http://localhost:5000/api/auth/register', formData)
         .then((res) => {
             console.log(res.data);
+            
         })
     }
   return (
