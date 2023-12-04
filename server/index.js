@@ -9,10 +9,11 @@ const productRoutes = require('./src/routes/productRoutes');
 
 const app = express();
 
-app.use(express.json)
+app.use(express.json());
 app.use(cors());
 dotenv.config();
 
+// R
 app.use('/auth', authRoutes);
 // app.use('/product', productRoutes);
 
