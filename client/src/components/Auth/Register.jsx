@@ -34,8 +34,8 @@ const Register = () => {
             <input type="text" name="username" value={formData.username} onChange={handleChange} />
         </label>
         <label>
-            E:
-            <input type="text" name="email" value={formData.email} onChange={handleChange} />
+            Email:
+            <input type="emai" name="email" value={formData.email} onChange={handleChange} />
         </label>
         <label>
             Username:
