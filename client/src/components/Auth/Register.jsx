@@ -10,7 +10,7 @@ const Register = () => {
         dispatch(register(formData))
     }
 
-    const ha
+    const han
   return (
     <div>
       
