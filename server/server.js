@@ -14,7 +14,7 @@ app.use(cors());
 // Env configuration
 dotenv.config();
 
-
+// Databs
 connectDB();
 
 app.listen(process.env.PORT, () => {
