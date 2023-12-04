@@ -7,5 +7,5 @@ import Register from './auth/Register'
 
 export {
     Homepage, GuestDashboard, CreatorDashboard,
-    SellerDashboard, Login, R
+    SellerDashboard, Login, Regis
 }
