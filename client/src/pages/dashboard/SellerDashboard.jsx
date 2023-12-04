@@ -1,5 +1,5 @@
 import React from 'react'
-imor
+import 
 
 const SellerDashboard = () => {
   return (
