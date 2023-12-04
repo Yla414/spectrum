@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 import { register, login } from '../../redux/auth/authSlice';
 
 const Register = () => {
-    const dispatch = useDispatc
+    const dispatch = useDispatch
   return (
     <div>
       
