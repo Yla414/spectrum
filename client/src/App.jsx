@@ -8,7 +8,7 @@ import ProtectedRoute from './components/ProtectedRoute';
 import { useSelector } from 'react-redux';
 
 const App = ({ component: Component, allowedRoles, ...rest }) => {
-  // const user = useSelector((state) => state.auth.user);
+  const user = useSelector((state) => state.auth.user);
   return (
     <div>
       <BrowserRouter>
@@ -16,7 +16,7 @@ const App = ({ component: Component, allowedRoles, ...rest }) => {
           <Route path='/' element={<Homepage />}></Route>
           <Route path='/register' element={<Register />}></Route>
           <Route path='/login' element={<Login />}></Route>
-          {/* <Route 
+          <Route 
             path='/dashboard'
             {...rest}
             render={(props) => {
@@ -26,7 +26,7 @@ const App = ({ component: Component, allowedRoles, ...rest }) => {
                     return window.location.href = '/login';
                 }
             }}
-        ></Route> */}
+        ></Route>
         <ProtectedRoute path='/dashboard' component={<Dashboard />} allowedRoles={['Seller', 'Creator']} ></ProtectedRoute>
         </Routes>
       </BrowserRouter>
