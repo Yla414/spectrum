@@ -23,13 +23,13 @@ const register = async (req, res) => {
         }
         // Validate and hash user password
         const salt = 10;
-        const hashedPassword = await bcrypt.hash(req.body.password, salt);
+        const hashedPassword = await bcrypt.hash(password, salt);
 
         const newUser = await UserModel.create({
             username,
             password: hashedPassword,
             email,
-            role: req.body.role,
+            role,
         });
 
         const token = generateToken(newUser);
