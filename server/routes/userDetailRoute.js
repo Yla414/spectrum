@@ -17,6 +17,6 @@ router.get('/me', authMiddleware, async (req, res) => {
             return res.status(404).json({ message: 'User does not exist!' });
         }
 
-        res.status(200).j
+        res.status(200).jso
     }
 })
