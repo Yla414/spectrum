@@ -8,7 +8,7 @@ import { setToken, setUser } from './redux/auth/authSlice';
 const App = () => {
   const userRole = useSelector(state => state.auth.user?.role);
   const dispatch = useDispatch();
-  const nav
+  const navigate = useNav
 
   const GetDashboardComponent = () => {
     switch (userRole) {
