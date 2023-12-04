@@ -11,7 +11,7 @@ const app = express();
 dotenv.config();
 
 app.use('/auth', authRoutes);
-app.use('/product', pro);
+app.use('/product', productR);
 
 mongoose
     .connect(process.env.MONGO_URI)
