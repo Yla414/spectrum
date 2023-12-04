@@ -18,7 +18,7 @@ const Register = () => {
             });
 
             // Save user and the token generated to redux state
-            if()
+            if(response)
             console.log(response.data);
         } catch (error) {
             console.error('Error logging in:', error.response.data);
