@@ -24,4 +24,4 @@ const authSlice = createSlice({
             state.isAuthenticated = false;
         }
     }
-})
+});
