@@ -1,1 +1,1 @@
-import { createSlice } from '@redux';
+import { createSlice } from '@reduxjs/toolkit';
