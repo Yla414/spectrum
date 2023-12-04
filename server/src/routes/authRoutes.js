@@ -23,7 +23,8 @@ router.post('/register', async (req, res) => {
     }
 });
 
-router.post('/login', sync (req, res) => {}})
+router.post('/login', sync (req, res) => {
+})
 
 
 module.exports = router;
