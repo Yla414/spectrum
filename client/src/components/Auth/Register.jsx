@@ -17,7 +17,7 @@ const Register = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        await axios.post('http:')
+        await axios.post('http://localhost:5000/api/')
     }
   return (
     <div>
