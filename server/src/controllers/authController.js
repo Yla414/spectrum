@@ -63,8 +63,8 @@ const getUser = async (req, res) => {
     try {
         res.status(200).json({ user: req.user });
     } catch (error) {
-        res.status(500).json({ error: e })
+        res.status(500).json({ error: error.message });
     }
 }
 
-module.exports = { register, login };
+module.exports = { register, login, };
