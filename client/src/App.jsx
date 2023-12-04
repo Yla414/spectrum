@@ -15,8 +15,6 @@ const App = ({ component, allowedRoles, ...rest }) => {
           <Route path='/' element={<Homepage />}></Route>
           <Route path='/register' element={<Register />}></Route>
           <Route path='/login' element={<Login />}></Route>
-          
-        
         </Routes>
       </BrowserRouter>
     </div>
