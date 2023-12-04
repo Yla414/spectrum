@@ -19,7 +19,7 @@ const authSlice = createSlice({
             state.token = action.payload;
         },
         resetAuth: (state, action) => {
-            state.user = 
+            state.user = n
         }
     }
 })
