@@ -16,7 +16,7 @@ const Register = () => {
   return (
     <div>
       <form onSubmit={handleRegister}>
-        l
+        labe
       </form>
     </div>
   )
