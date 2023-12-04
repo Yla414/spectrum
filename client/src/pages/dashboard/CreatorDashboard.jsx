@@ -11,7 +11,7 @@ const CreatorDashboard = () => {
     if(user) {
       fetchUserDetails(dispatch);
     }
-  }, [])
+  }, [d])
 
   return (
     <div>
