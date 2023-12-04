@@ -1,3 +1,3 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:300'
+const API_BASE_URL = 'http://localhost:30'
