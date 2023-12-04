@@ -1,12 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { useSelector } from 'react-redux'
-// import Homepage from './components/Homepage'
-// import Register from './components/auth/Register'
-// import Login from './components/auth/Login'
-// import GuestDashboard from './pages/dashboard/GuestDashboard'
-// import SellerDashboard from './pages/dashboard/SellerDashboard'
-// import CreatorDashboard from './pages/dashboard/CreatorDashboard'
+
 import { Homepage, Register, Login, SellerDashboard, CreatorDashboard, GuestDashboard } from './components/components.exports'
 
 const App = () => {
