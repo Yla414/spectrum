@@ -1,1 +1,1 @@
-import { conf }
+import { configureStore } from "@reduxjs/toolkit";
