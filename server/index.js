@@ -16,7 +16,6 @@ dotenv.config();
 // ROUTES
 app.use('/auth', authRoutes);
 // app.use('/product', productRoutes);
-
 mongoose
     .connect(process.env.MONGO_URI)
     .then(() => {
