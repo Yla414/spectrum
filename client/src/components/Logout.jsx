@@ -1,5 +1,5 @@
 import React from 'react'
-impor
+import {}
 
 const Logout = () => {
   return (
