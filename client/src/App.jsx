@@ -30,7 +30,8 @@ const getDashboard = () => {
     case 'Seller':
       return <SellerDashboard />;
     case 'Creator':
-      retu
+      return <CreatorDashboard />;
+      
   }
 }
 
