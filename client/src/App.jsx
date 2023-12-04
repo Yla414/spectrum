@@ -27,7 +27,7 @@ const App = () => {
         headers: {
           Authorization: `Bearer ${storedToken}`,
         }
-      }).then((res) => )
+      }).then((res) => {})
     }
   }, [])
 
