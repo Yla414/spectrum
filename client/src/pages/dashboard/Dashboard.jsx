@@ -1,1 +1,2 @@
-import React from 'rea'
+import React from 'react';
+im
