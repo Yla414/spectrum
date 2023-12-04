@@ -18,6 +18,6 @@ const userSchema = new mongoose.Schema({
     },
     role: {
         type: String,
-        enum: ['Guest', 'Seller', 'C']
+        enum: ['Guest', 'Seller', 'Creato']
     }
 })
