@@ -49,4 +49,4 @@ export const login = (credentials) => async (dispatch) => {
     }
 }
 
-export default
+export default au
