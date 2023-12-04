@@ -3,7 +3,8 @@ import axios from 'axios';
 
 const Register = () => {
     const [formData, setFormData] = useState({
-        username
+        username: '',
+        email
     });
   return (
     <div>
