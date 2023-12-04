@@ -18,7 +18,7 @@ const Register = () => {
       <form onSubmit={handleRegister}>
         <label>
             Username:
-            <input type="text" value={formData.username || ''} onCha />
+            <input type="text" value={formData.username || ''} onChange />
         </label>
       </form>
     </div>
