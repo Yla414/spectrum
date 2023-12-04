@@ -40,7 +40,7 @@ const Register = () => {
     
   return (
     <div>
-      <h1>L</h1>
+      <h1>Login</h1>
       <form onSubmit={handleLogin}>
         {/* <label>
             Username:
