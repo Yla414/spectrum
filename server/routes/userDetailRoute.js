@@ -11,6 +11,6 @@ router.get('/me', authMiddleware, async (req, res) => {
         const userId = req.user.userId;
 
         // Retrieve user data from the database
-        const user = await User.findById(userId) 
+        const user = await User.findById(userId) {}
     }
 })
