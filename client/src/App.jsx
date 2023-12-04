@@ -19,7 +19,7 @@ const App = () => {
   }
 
   useEffect(() => {
-    const s
+    const st
   }, [])
 
   return (
