@@ -1,5 +1,5 @@
 const express = require('express');
 const router = express.Router();
-const authController = require
+const authController = require('../')
 
 module.exports = router;
