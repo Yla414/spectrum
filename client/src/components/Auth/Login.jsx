@@ -7,14 +7,14 @@ import { setUser, setToken } from '../../redux/auth/authSlice'
 const Register = () => {
     const navigate = useNavigate();
     const dispatch = useDispatch();
-    const [username, setUserna] = useState('');
+    const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
 
     const handleLogin = async (e) => {
         e.preventDefault();
         try {
             const response = await axios.post('/auth/login', {
-                email, password
+                username, password
             });
 
             // Save user and the token generated to redux state
@@ -37,7 +37,7 @@ const Register = () => {
         </label> */}
         <label>
             Email:
-            <input type="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+            <input type="email" name="email" value={email} onChange={(e) => setUsername(e.target.value)} />
         </label>
         <label>
             Password:
