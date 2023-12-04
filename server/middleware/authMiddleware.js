@@ -14,7 +14,7 @@ const authMiddleware = (req, res, next) => {
 
         // Attach user details to the request
         req.user = {
-            userId
+            userId: 
         }
     })
 }
