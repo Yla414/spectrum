@@ -1,5 +1,6 @@
 const jwt = require('jsonwebtoken');
 const UserModel = require('../models/user');
+co
 
 const generateToken = (user) => {
     const payload = {
@@ -8,5 +9,5 @@ const generateToken = (user) => {
         role: user.role,
     };
 
-    return jwt.sign(payload,)
+    return jwt.sign(payload, )
 }
