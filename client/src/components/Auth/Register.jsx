@@ -41,6 +41,8 @@ const Register = () => {
             Password:
             <input type="password" name="password" value={formData.password} onChange={handleChange} />
         </label>
+
+        
       </form>
     </div>
   )
