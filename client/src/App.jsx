@@ -6,7 +6,7 @@ import Login from './components/auth/Login'
 import Dashboard from './pages/dashboard/Dashboard';
 import { useSelector } from 'react-redux';
 
-const App = ({ component, allowedRoles, ...rest }) => {
+const App = () => {
   const user = useSelector((state) => state.auth.user);
   return (
     <div>
