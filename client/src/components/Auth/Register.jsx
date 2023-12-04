@@ -7,6 +7,7 @@ const Register = () => {
     const [formData, setFormData] = useState({});
 
     const handleRegister = (e) => {
+        
         dispatch(register(formData))
     }
 
