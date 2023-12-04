@@ -7,7 +7,7 @@ const Register = () => {
     const [username, setUsername] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    co
+    const [role, setRole] = useState('Gues')
     
   return (
     <div>
