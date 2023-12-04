@@ -7,4 +7,4 @@ const initialState = {
     isAuthenticated: false,
 }
 
-const authS
+const authSlice
