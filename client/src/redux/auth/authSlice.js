@@ -1,2 +1,2 @@
 import { createSlice } from '@reduxjs/toolkit';
-import api from ''
+import api from '.'
