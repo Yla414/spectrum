@@ -21,7 +21,7 @@ const Register = () => {
             if(response) {
               console.log('Logged in user:', response.data.user)
               dispatch(setUser(response.data.user));
-              dispatch(setToken(response.data.token));
+              dispatch(setTok(response.data.token));
               navigate('/dashboard');
             }
         } catch (error) {
