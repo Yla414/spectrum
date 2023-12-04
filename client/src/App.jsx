@@ -27,6 +27,7 @@ const App = ({ component: Component, allowedRoles, ...rest }) => {
                 }
             }}
         ></Route>
+        <ProtectedRoute ></ProtectedRoute>
         </Routes>
       </BrowserRouter>
     </div>
