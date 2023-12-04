@@ -9,7 +9,6 @@ import { useSelector } from 'react-redux';
 
 const App = ({ component: Component, allowedRoles, ...rest }) => {
   const user = useSelector((state) => state.auth.user);
-  const navigate = useNavigate();
   return (
     <div>
       <BrowserRouter>
