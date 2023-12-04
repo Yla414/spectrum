@@ -13,7 +13,9 @@ const Register = () => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };
 
-    const handleSubmit = ()
+    const handleSubmit = (e) => {
+        e
+    }
   return (
     <div>
       
