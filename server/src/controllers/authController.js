@@ -33,6 +33,8 @@ const login = async (req, res) => {
     try {
         // Validate the credentials
         const user = UserModel.findOne({ username: req.body.username });
+
+        if(!u)
     } catch (error) {
         
     }
