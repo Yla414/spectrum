@@ -25,6 +25,6 @@ const register = async (req, res) => {
         res.status(201).json({ token });
     } catch (error) {
         console.error(error);
-        res.status(500).json({ error: 'Interna' })
+        res.status(500).json({ error: 'Internal serve' })
     }
 }
