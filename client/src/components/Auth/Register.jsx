@@ -34,7 +34,7 @@ const Register = () => {
         </label>
         <button type="submit">Register</button>
       </form>
-      <form onSubmit={handleLogin}>
+      {/* <form onSubmit={handleLogin}>
         <label>
             Email:
             <input type="email" value={formData.email || ''} onChange={(e) => setFormData({...formData, email: e.target.value})} />
@@ -44,7 +44,7 @@ const Register = () => {
             <input type="password" value={formData.password || ''} onChange={(e) => setFormData({...formData, password: e.target.value})} />
         </label>
         <button type="submit">Login</button>
-      </form>
+      </form> */}
     </div>
   )
 }
