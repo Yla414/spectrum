@@ -7,7 +7,7 @@ import Dashboard from './pages/dashboard/Dashboard';
 import ProtectedRoute from './components/ProtectedRoute';
 import { useSelector } from 'react-redux';
 
-const App = ({ component: Component, allowedRoles, ...rest }) => {
+const App = ({ component, allowedRoles, ...rest }) => {
   const user = useSelector((state) => state.auth.user);
   return (
     <div>
