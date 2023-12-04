@@ -28,6 +28,8 @@ const App = ({ component: Component, allowedRoles, ...rest }) => {
             }}
         ></Route> */}
         <>
+        
+        </>
         </Routes>
       </BrowserRouter>
     </div>
