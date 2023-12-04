@@ -17,4 +17,4 @@ const fetchUserDetails = async (dispatch) => {
     }
 }
 
-export default fet
+export default fetchUserDetails
