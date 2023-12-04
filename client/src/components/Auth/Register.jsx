@@ -52,7 +52,7 @@ const Register = () => {
         </select>
 
         <button type="submit">Register</button>
-        <Link>Login</button>
+        <Link to={'/login'}>Login</Link>
         
       </form>
     </div>
