@@ -21,7 +21,7 @@ const Register = () => {
         .then((res) => {
             console.log(res.data);
             if(res) {
-                
+                navigate('/')
             }
         })
     }
