@@ -15,7 +15,7 @@ const CreatorDashboard = () => {
 
   return (
     <div>
-      <h2>Welcome to the Creator dashboard {user && user?.username}!</h2>
+      <h2>Welcome to the Creator dashboard {user &&user?.username}!</h2>
       <Logout />
     </div>
   )
