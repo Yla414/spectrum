@@ -43,6 +43,7 @@ router.post('/login', sync (req, res) => {
     } catch (error) {
         console.error(error);
         res.status(500).json({ error: 'Internal server error' });
-    });
+    })
+}
 
 module.exports = router;
