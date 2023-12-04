@@ -5,4 +5,4 @@ const dotenv = require('dotenv');
 const authMiddleware = require('../middleware/authMiddleware');
 dotenv.config();
 
-r
+router
