@@ -4,7 +4,7 @@ import Homepage from './components/Homepage'
 import Register from './components/auth/Register'
 import Login from './components/auth/Login'
 import Dashboard from './pages/dashboard/Dashboard';
-import ProtectedRoute from './components/pro'
+import ProtectedRoute from './components/protectedRoute';
 
 const App = () => {
   return (
@@ -14,6 +14,7 @@ const App = () => {
           <Route path='/' element={<Homepage />}></Route>
           <Route path='/register' element={<Register />}></Route>
           <Route path='/login' element={<Login />}></Route>
+          <Proe
         </Routes>
       </BrowserRouter>
     </div>
