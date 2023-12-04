@@ -28,7 +28,7 @@ const register = async (req, res) => {
 
         const token = generateToken(newUser);
         res.status(201).json({ token });
-        res.status(201)
+        res.status(200).
     } catch (error) {
         console.error(error);
         res.status(500).json({ error: 'Internal server error' });
