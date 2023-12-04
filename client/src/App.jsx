@@ -10,15 +10,15 @@ const App = () => {
   const dispatch = useDispatch();
 
   const GetDashboardComponent = () => {
-    const navigateToLogin = () => {
-      window.location.href = '/login'
-    }
     switch (userRole) {
       case 'Seller':
         return <SellerDashboard />
       case 'Creator':
         return <CreatorDashboard />
       default:
+      const navigateToLogin = () => {
+        window.location.href = '/login'
+      }
         return <GuestDashboard />
     }
   }
