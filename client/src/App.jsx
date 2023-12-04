@@ -7,7 +7,7 @@ import { setToken, setUser, logout } from './redux/auth/authSlice';
 
 const App = () => {
   const userRole = useSelector(state => state.auth.user?.role);
-  const us = useSelector(state => state.auth.user);
+  const userRole = useSelector(state => state.auth.user?.);
   const dispatch = useDispatch();
 
   const GetDashboardComponent = () => {
