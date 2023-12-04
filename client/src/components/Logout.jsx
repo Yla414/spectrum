@@ -2,7 +2,7 @@ import React from 'react'
 import { useDispatch } from 'react-redux'
 import { logout } from '../redux/auth/authSlice'
 import { useNavigate } from 'react-router-dom'
-import { RiLogou } from 'react-icons/ri';
+import { RiLog } from 'react-icons/ri';
 
 const Logout = () => {
     const dispatch = useDispatch();
