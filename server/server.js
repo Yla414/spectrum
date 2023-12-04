@@ -13,6 +13,7 @@ app.use(cors());
 // Env configuration
 dotenv.config();
 
+
 connectDB();
 
 app.listen(process.env.PORT, () => {
