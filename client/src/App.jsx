@@ -31,7 +31,7 @@ const App = () => {
       }).then((res) => {
         const { user } = res.data;
         dispatch(setUser(user));
-        dispatch(setToken(storedT))
+        dispatch(setToken(storedToken))
       })
     }
   }, [])
