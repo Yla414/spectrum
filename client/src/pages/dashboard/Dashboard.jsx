@@ -16,6 +16,7 @@ const Dashboard = () => {
         navigate('/login')
     }
 
+    c
     
     return (
         <div>
