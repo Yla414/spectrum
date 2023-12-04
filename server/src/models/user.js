@@ -23,4 +23,4 @@ const userSchema = new mongoose.Schema({
     }
 });
 
-modu
+module.exp
