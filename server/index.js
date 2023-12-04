@@ -8,6 +8,7 @@ const authRoutes = require('./src/routes/authRoutes');
 const productRoutes = require('./src/routes/productRoutes');
 
 const app = express();
+
 app.use(cors());
 dotenv.config();
 
