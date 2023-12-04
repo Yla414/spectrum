@@ -14,6 +14,7 @@ const generateToken = (user) => {
 
 const register = async (req, res) => {
     try {
-        // Validate and hash user p
+        // Validate and hash user password
+        
     }
 }
