@@ -1,2 +1,2 @@
 import axios from 'axios';
-import { setUser } from '../redux/auth/authSlice'
+import { setUser } from '../redux/auth/authSlice';
