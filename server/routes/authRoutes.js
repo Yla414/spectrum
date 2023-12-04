@@ -44,7 +44,7 @@ router.post('/login', async (req, res) => {
     const { email, password } = req.body
 
     // fIND USER BY EMAIL
-    const user = User.findOne({ email })
+    const user = await User.findOne({ email })
     if (!user) {
       const response = res
         .status(401)
