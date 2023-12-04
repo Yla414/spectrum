@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 const UserModel = require('../models/user');
 const crypto = require('crypto');
-const bcrypt = require('bcrypt')
+const bcrypt = require('bcrypt');
 
 const generateToken = (user) => {
     const payload = {
@@ -16,6 +16,7 @@ const generateToken = (user) => {
 const register = async (req, res) => {
     try {
         // Validate and hash user password
+        
         const newUser = await UserModel.create({
             username: req.body.username,
             email: req.body.email,
