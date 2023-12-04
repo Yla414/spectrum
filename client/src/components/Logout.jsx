@@ -1,5 +1,5 @@
 import React from 'react'
-import { use }
+import { useDi }
 
 const Logout = () => {
   return (
