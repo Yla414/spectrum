@@ -21,7 +21,7 @@ const App = () => {
 }
 
 const getDashboard = () => {
-  const 
+  const userRole = useS
 }
 
 export default App
