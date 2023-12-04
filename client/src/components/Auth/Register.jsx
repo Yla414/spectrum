@@ -18,7 +18,7 @@ const Register = () => {
       <form onSubmit={handleRegister}>
         <label>
             Username:
-            <input type="text" value={formD} />
+            <input type="text" value={formDat} />
         </label>
       </form>
     </div>
