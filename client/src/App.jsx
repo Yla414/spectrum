@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { useSelector, useDispatch } from 'react-redux'
 import { Homepage, Register, Login, SellerDashboard, CreatorDashboard, GuestDashboard } from './components/components.exports';
 import axios from './api/axios'
@@ -40,7 +40,7 @@ const App = () => {
       })
       .catch((error) => {
         console.error('Error fetching user details:', error);
-        navigateToLogin()
+        navigateToLogin();
       })
     }
   }, [dispatch]);
