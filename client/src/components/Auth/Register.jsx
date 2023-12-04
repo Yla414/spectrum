@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useDi }
+import { useDispa }
 
 const Register = () => {
   return (
