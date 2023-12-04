@@ -6,7 +6,7 @@ import Login from './components/auth/Login'
 import Dashboard from './pages/dashboard/Dashboard';
 import ProtectedRoute from './components/ProtectedRoute';
 
-const App = ({ component: Component, al }) => {
+const App = ({ component: Component, allowedRoles, ...rest }) => {
   return (
     <div>
       <BrowserRouter>
