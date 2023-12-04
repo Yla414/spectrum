@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import useProtectedRoute from '../../hooks/useProtectedRoute'
-import {  }
+import { us }
 
 const Dashboard = () => {
     const redirect = useProtectedRoute(['Seller', 'Creator']);
