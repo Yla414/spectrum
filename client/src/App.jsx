@@ -6,7 +6,7 @@ import axios from './api/axios'
 import { setToken, setUser } from './redux/auth/authSlice';
 
 const App = () => {
-  const navigateToLogin = window.location.href = '/logi'
+  const navigateToLogin = window.location.href = '/login'
   const userRole = useSelector(state => state.auth.user?.role);
   const dispatch = useDispatch();
 
@@ -37,8 +37,7 @@ const App = () => {
       })
       .catch((error) => {
         console.error('Error fetching user details:', error);
-        navigate('/login');
-      })
+navigateToLogin      })
     }
   }, [navigate, dispatch]);
 
