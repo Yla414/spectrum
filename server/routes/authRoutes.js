@@ -6,4 +6,7 @@ const User = require('../models/User');
 
 
 // REGISTRATION ROUTE
-router.post('/register', (req, res) => )
+router.post('/register', async (req, res) => {});
+
+
+router.post('/login', async (req, res) => {})
