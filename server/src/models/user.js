@@ -1,4 +1,4 @@
 const mongoose = require('mongoose');
 
 
-const userSchema = new mongoose.S
+const userSchema = new mongoose.Sche
