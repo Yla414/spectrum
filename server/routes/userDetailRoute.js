@@ -19,6 +19,6 @@ router.get('/me', authMiddleware, async (req, res) => {
 
         res.status(200).json({ user });
     } catch (error) {
-        
+        conso
     }
 })
