@@ -8,5 +8,5 @@ const generateToken = (user) => {
         role: user.role,
     };
 
-    return jwt.sign
+    return jwt.sign()
 }
