@@ -37,7 +37,8 @@ const App = () => {
       })
       .catch((error) => {
         console.error('Error fetching user details:', error);
-navigateToLogin      })
+        navigate('/login');
+      })
     }
   }, [navigate, dispatch]);
 
