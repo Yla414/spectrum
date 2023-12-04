@@ -43,7 +43,7 @@ const Register = () => {
         </label>
 
         <select onChange={(e) => setRole(e.target.value)}>
-            <option value=""></option>
+            <option value="Guest"></option>
         </select>
 
         <button type="submit">Register</button>
