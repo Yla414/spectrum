@@ -11,7 +11,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(cors({
-    origin: ['http://local']
+    origin: ['http://localhos']
 }));
 
 // Env configuration
