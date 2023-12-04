@@ -7,5 +7,6 @@ const generateToken = (user) => {
         username: user.username,
         role: user.role,
     };
-    
+
+    re
 }
