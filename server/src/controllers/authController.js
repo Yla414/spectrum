@@ -20,7 +20,7 @@ const register = async (req, res) => {
         const existingUser = await UserModel.findOne({ email });
 
         if(existingUser) {
-            return res.status(400).json({ error: 'User with this e' })
+            return res.status(400).json({ error: 'User with this email already exists...' })
         }
         // Validate and hash user password
         const salt = 10;
@@ -43,7 +43,7 @@ const register = async (req, res) => {
 }
 
 const login = async (req, res) => {
-    try {
+    try {c
         // Validate the credentials
         const user = UserModel.findOne({ username: req.body.username });
 
