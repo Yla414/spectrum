@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { useSelector, useDispatch } from 'react-redux'
 import { Homepage, Register, Login, SellerDashboard, CreatorDashboard, GuestDashboard } from './components/components.exports';
 import axios from './api/axios'
-import { setToken, setUser, } from './redux/auth/authSlice';
+import { setToken, setUser, l } from './redux/auth/authSlice';
 
 const App = () => {
   const userRole = useSelector(state => state.auth.user?.role);
