@@ -5,7 +5,7 @@ import Homepage from './components/Homepage'
 import Register from './components/auth/Register'
 import Login from './components/auth/Login'
 import GuestDashboard from './pages/dashboard/GuestDashboard';
-import GuestDashboard from './pages/dashboard/GuestDashboard';
+import SellerDashb from './pages/dashboard/SellerDashb';
 import GuestDashboard from './pages/dashboard/GuestDashboard';
 
 const App = () => {
