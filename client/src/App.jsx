@@ -7,6 +7,7 @@ import Dashboard from './pages/dashboard/Dashboard';
 import ProtectedRoute from './components/ProtectedRoute';
 
 const App = ({ component: Component, allowedRoles, ...rest }) => {
+  const user = useSelector((state) => state.auth.user);
   return (
     <div>
       <BrowserRouter>
