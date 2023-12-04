@@ -7,7 +7,7 @@ const Logout = () => {
 
     const handleLogout = () => {
         dispatch(logout());
-        
+        loc
     }
   return (
     <div>
