@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(cors());
 dotenv.config();
 
-// R
+// ROUTES
 app.use('/auth', authRoutes);
 // app.use('/product', productRoutes);
 
