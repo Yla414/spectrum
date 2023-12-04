@@ -29,6 +29,8 @@ const getDashboard = () => {
   switch (userRole) {
     case 'Seller':
       return <SellerDashboard />;
+    case 'Creator':
+      retu
   }
 }
 
