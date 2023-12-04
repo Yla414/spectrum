@@ -13,7 +13,7 @@ const Register = () => {
 
     useEffect(() => {
       if(user) {
-        na
+        navigate('')
       }
     }, [user, navigate])
 
