@@ -14,7 +14,7 @@ const Logout = () => {
     }
   return (
     <div>
-      bu
+      butt
     </div>
   )
 }
