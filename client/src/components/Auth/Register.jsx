@@ -31,7 +31,7 @@ const Register = () => {
       <form onSubmit={handleSubmit}>
         <label>
             Username:
-            <
+            <input type="text" name="username" onChange={handleC} />
         </label>
       </form>
     </div>
