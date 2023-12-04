@@ -31,7 +31,8 @@ const getDashboard = () => {
       return <SellerDashboard />;
     case 'Creator':
       return <CreatorDashboard />;
-    defau
+    default:
+      return <G
   }
 }
 
