@@ -50,6 +50,8 @@ router.post('/login', async (req, res) => {
         const passwordMatch = await bcrypt.compare(password, user.password);
         if(!passwordMatch) {
             const response = res.status(401).json({ message: 'Incorrect password' });
+            console.log(response);
+            return response;
         }
     }
 });
