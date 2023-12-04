@@ -1,7 +1,7 @@
 import React from 'react'
 import { useSelector } from 'react-redux';
 import Logout from '../../components/Logout';
-import { fetch }
+import { fetchU }
 
 const CreatorDashboard = () => {
   const user = useSelector((state) => state.auth.user);
