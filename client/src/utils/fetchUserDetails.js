@@ -6,7 +6,7 @@ const fetchUserDetails = async (dispatch) => {
         const response = await axios.get('/user', {
             headers: {
                 Authorization: `Bearer ${localStorage.getItem('token')}`
-            }
+            },
         })
     } catch (error) {
         
