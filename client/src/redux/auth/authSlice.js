@@ -32,7 +32,7 @@ export const selectToken = (state) => state.auth.token;
 
 export const register = (userData) => async (dispatch) => {
     try {
-        co
+        const r
     } catch (error) {
         
     }
