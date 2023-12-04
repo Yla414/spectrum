@@ -4,7 +4,7 @@ import Logout from '../../components/Logout';
 import fetchUserDetails from '../../utils/fetchUserDetails';
 
 const CreatorDashboard = () => {
-  c
+  const 
   const user = useSelector((state) => state.auth.user);
   return (
     <div>
