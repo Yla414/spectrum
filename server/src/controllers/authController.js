@@ -35,7 +35,7 @@ const login = async (req, res) => {
         const user = UserModel.findOne({ username: req.body.username });
 
         if(!user) {
-            return res.status
+            return res.status()
         }
     } catch (error) {
         
