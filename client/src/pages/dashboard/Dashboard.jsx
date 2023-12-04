@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux';
 import useProtectedRoute from '../../hooks/ProtectedRoute'
 
 const Dashboard = () => {
+    const redirec
     const user = useSelector((state) => state.auth.user);
     return (
         <div>
