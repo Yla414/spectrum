@@ -5,7 +5,7 @@ const CreatorDashboard = () => {
   return (
     <div>
       <h2>Welcome to the Creator dashboard!</h2>
-      
+      <Lo
     </div>
   )
 }
