@@ -13,6 +13,8 @@ router.get('/me', authMiddleware, async (req, res) => {
         // Retrieve user data from the database
         const user = await User.findById(userId);
 
-        if(!user) {}
+        if(!user) {
+            
+        }
     }
 })
