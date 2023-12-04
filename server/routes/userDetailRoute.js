@@ -10,6 +10,6 @@ router.get('/user', authMiddleware, (req, res) => {
     try {
         const userId = req.user.userId;
 
-        // Retrieve user data from the data
+        // Retrieve user data from the database
     }
 })
