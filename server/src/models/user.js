@@ -20,7 +20,7 @@ const userSchema = new mongoose.Schema({
         type: String,
         enum: ['Guest', 'Seller', 'Creator'],
         default: 'Guest',
-        requir
+        required: true
     }
 });
 
