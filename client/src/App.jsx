@@ -23,17 +23,6 @@ const App = () => {
   )
 }
 
-const userRole = useSelector((state) => state.auth.user?.role)
-const getDashboardComponent = () => {
 
-  switch (userRole) {
-    case 'Seller':
-      return <SellerDashboard />;
-    case 'Creator':
-      return <CreatorDashboard />;
-    default:
-      return <GuestDashboard />;
-  }
-}
 
 export default App
