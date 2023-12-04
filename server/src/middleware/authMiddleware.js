@@ -1,1 +1,1 @@
-const jwt = re
+const jwt = require
