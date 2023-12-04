@@ -4,6 +4,9 @@ import { useNavigate } from 'react-router-dom'
 
 const Register = () => {
     const navigate = useNavigate();
+    const [username, setUsername] = useState('');
+    const [email, setEmail] = useState('');
+    const [passw]
     
   return (
     <div>
