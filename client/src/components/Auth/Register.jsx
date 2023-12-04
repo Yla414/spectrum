@@ -40,7 +40,7 @@ const Register = () => {
             Password:
             <input type="password" value={formData.password || ''} onChange={(e) => setFormData({...formData, password: e.target.value})} />
         </label>
-        <button type="submit">L</button>
+        <button type="submit">Login</button>
       </form>
     </div>
   )
