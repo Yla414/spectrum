@@ -7,7 +7,7 @@ const Register = () => {
     const [formData, setFormData] = useState({});
 
     const handleRegister = () => {
-        d
+        dspa
     }
   return (
     <div>
