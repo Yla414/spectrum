@@ -23,7 +23,7 @@ const Register = () => {
             if(response) {
                 dispatch(setUser(response.data.user));
                 dispatch(setToken(response.data.token));
-                    
+                navigate('/login')
             }
             console.log(response.data);
         } catch (error) {
