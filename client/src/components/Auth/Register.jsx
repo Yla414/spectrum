@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useDispatch } fro
+import { useDispatch } from ''
 
 const Register = () => {
   return (
