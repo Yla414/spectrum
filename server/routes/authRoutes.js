@@ -28,10 +28,12 @@ router.post('/register', async (req, res) => {
         res.status(201).json({ message: 'User registered successfully!' });
     } catch (error) {
         console.error('Error registering user:', error);
-        res.status(500).json({ message })
+        res.status(500).json({ message: 'Internal server error' });
     }
 });
 
 
 // LOGIN ROUTE
-router.post('/login', async (req, res) => {})
+router.post('/login', async (req, res) => {});
+
+module
