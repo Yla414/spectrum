@@ -23,4 +23,4 @@ const authMiddleware = (req, res, next) => {
     })
 }
 
-mod
+module.e
