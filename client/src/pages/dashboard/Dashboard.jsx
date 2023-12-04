@@ -6,7 +6,7 @@ const Dashboard = () => {
     return (
         <div>
             <h2>Welcome to the dashboard, {user.username}!</h2>
-            <p>Your role</p>
+            <p>Your role: {}</p>
         </div>
     )
 }
