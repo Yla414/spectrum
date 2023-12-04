@@ -19,7 +19,7 @@ const Register = () => {
 
     const handleLogin = async (e) => {
         e.preventDefault();
-        window.l
+        window.loca
         try {
             const response = await axios.post('/auth/login', {
                 username, password
