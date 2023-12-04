@@ -29,4 +29,4 @@ const register = async (req, res) => {
     }
 }
 
-const login = a
+const login = async 
