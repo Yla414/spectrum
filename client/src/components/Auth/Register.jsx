@@ -8,11 +8,11 @@ const Register = () => {
 
     const handleRegister = (e) => {
         e.preventDefault();
-        e.preventDefault();
         dispatch(register(formData))
     }
 
     const handleLogin = (e) => {
+        e.preventDefault();
         dispatch(login(formData));
     }
   return (
