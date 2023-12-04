@@ -16,7 +16,7 @@ router.post('/register', async (req, res) => {
             return res.status(400).json(({ message: 'Username already exists...!' }));
         }
 
-        // 
+        // Passw
     } catch (error) {
 
     }
