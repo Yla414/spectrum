@@ -1,5 +1,9 @@
 const mongoose = require('mongoose');
 
 const connectDB = async () => {
-    try
+    try {
+        
+    } catch (error) {
+        
+    }
 }
