@@ -17,10 +17,11 @@ const App = ({ component: Component, allowedRoles, ...rest }) => {
           <Route path='/register' element={<Register />}></Route>
           <Route path='/login' element={<Login />}></Route>
           <Route 
+            pat
             {...rest}
             render={(props) => {
                 if(user && allowedRoles.includes(user.role)) {
-                    return <Component {...props} />
+                    return <Dashboard {...props} />
                 } else {
                     return window.location.href = '/login';
                 }
