@@ -35,7 +35,7 @@ const App = () => {
         dispatch(setToken(storedToken));
       })
       .catch((error) => {
-        console.error('Error fetching user details')
+        console.error('Error fetching user details:')
       })
     }
   }, [])
