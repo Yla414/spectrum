@@ -17,7 +17,7 @@ const Register = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        await axios.post()
+        await axios.post('h')
     }
   return (
     <div>
