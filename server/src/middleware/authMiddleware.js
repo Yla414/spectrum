@@ -5,7 +5,7 @@ const authenticate = (req, res, next) => {
         req.user = decode;
         next();
     } catch (error) {
-        res.status(500).json({ error: 'Authent' })
+        res.status(500).json({ error: 'Authentic' })
     }
     
 }
