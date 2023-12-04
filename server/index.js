@@ -23,6 +23,7 @@ mongoose
     })
     .catch((error) => console.log('Error connecting to MongoDB:', error));
 
-// ROUTES
+
+    // ROUTES
 app.use('/auth', authRoutes);
 // app.use('/product', productRoutes);
