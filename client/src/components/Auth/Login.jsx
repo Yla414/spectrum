@@ -7,7 +7,7 @@ import { setUser, setToken } from '../../redux/auth/authSlice'
 const Register = () => {
     const navigate = useNavigate();
     const dispatch = useDispatch();
-    const [email, setEmail] = useState('');
+    const [username, setU] = useState('');
     const [password, setPassword] = useState('');
 
     const handleLogin = async (e) => {
