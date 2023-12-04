@@ -8,7 +8,7 @@ import { setToken, setUser } from './redux/auth/authSlice';
 const App = () => {
   const userRole = useSelector(state => state.auth.user?.role);
   const dispatch = useDispatch();
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   const GetDashboardComponent = () => {
     switch (userRole) {
@@ -37,7 +37,7 @@ const App = () => {
       })
       .catch((error) => {
         console.error('Error fetching user details:', error);
-        navigate
+        navigate('/lo')
       })
     }
   }, [])
