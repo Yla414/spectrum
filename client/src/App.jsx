@@ -28,7 +28,7 @@ const App = () => {
           Authorization: `Bearer ${storedToken}`,
         }
       }).then((res) => {
-        const { user } = res
+        const { user } = res.data
       })
     }
   }, [])
