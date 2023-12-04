@@ -7,7 +7,7 @@ import { useSelector } from 'react-redux'
 // import GuestDashboard from './pages/dashboard/GuestDashboard'
 // import SellerDashboard from './pages/dashboard/SellerDashboard'
 // import CreatorDashboard from './pages/dashboard/CreatorDashboard'
-import { Homepage, Register, Login, SellerDashboard, CreatorDashboard, G } from './components/components.exports'
+import { Homepage, Register, Login, SellerDashboard, CreatorDashboard, Guest } from './components/components.exports'
 
 const App = () => {
   const userRole = useSelector(state => state.auth.user?.role)
