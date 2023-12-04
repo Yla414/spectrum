@@ -40,7 +40,9 @@ router.post('/login', async (req, res) => {
 
         // fIND USER BY EMAIL
         const user = User.findOne({ email });
-        if(!us)
+        if(!user) {
+            
+        }
     }
 });
 
