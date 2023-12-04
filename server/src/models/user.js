@@ -20,8 +20,8 @@ const userSchema = new mongoose.Schema({
         type: String,
         enum: ['Guest', 'Seller', 'Creator'],
         default: 'Guest',
-        required: true
+        required: true,
     }
 });
 
-module.exports = mongoose.model('users', userSchema);
+module.exports = mongoose.model('user', userSchema);
