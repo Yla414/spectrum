@@ -5,12 +5,12 @@ import { useNavigate } from 'react-router-dom'
 
 const Logout = () => {
     const dispatch = useDispatch();
-    const navigate = useNavigate()
+    const navigate = useNavigate();
 
     const handleLogout = () => {
         dispatch(logout());
         localStorage.removeItem('token');
-
+        
     }
   return (
     <div>
