@@ -3,7 +3,8 @@ import { setUser } from '../redux/auth/authSlice';
 
 const fetchUserDetails = async (dispatch) => {
     try {
-        const token = localStorage.getItem('token')
+        const token = localStorage.getItem('token');
+        
         const response = await axios.get('/user/me', {
             headers: {
                 Authorization: `Bearer ${localStorage.getItem('token')}`
