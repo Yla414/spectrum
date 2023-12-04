@@ -20,7 +20,7 @@ const Register = () => {
             dispatch(setUser(response.data.user));
             dispatch(setToken(response.data.token));
             console.log(response.data);
-        } catch
+        } catch (error) {}
     }
     
   return (
