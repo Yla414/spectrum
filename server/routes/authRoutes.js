@@ -17,7 +17,7 @@ router.post('/register', async (req, res) => {
         }
 
         // Password hashing
-        const hashedPassword = await bcrypt.hash()
+        const hashedPassword = await bcrypt.hash(password, )
     } catch (error) {
 
     }
