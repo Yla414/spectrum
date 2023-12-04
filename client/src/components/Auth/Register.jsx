@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import axios from '../../api/axios/';
+import axios from '../../api/axios';
 import { useNavigate, Link } from 'react-router-dom'
 import { useDispatch } from 'react-redux';
 import { setUser, setToken } from '../../redux/auth/authSlice'
