@@ -32,7 +32,7 @@ const register = async (req, res) => {
 const login = async (req, res) => {
     try {
         // Validate the credentials
-        const user = UserModel.findOne({})
+        const user = UserModel.findOne({  })
     } catch (error) {
         
     }
