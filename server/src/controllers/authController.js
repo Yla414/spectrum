@@ -61,8 +61,8 @@ const login = async (req, res) => {
 
 const getUser = async (req, res) => {
     try {
-        
-    }
+
+    } catch ()
 }
 
 module.exports = { register, login };
