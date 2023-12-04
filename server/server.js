@@ -13,5 +13,5 @@ dotenv.config();
 connectDB();
 
 app.listen(process.env.PORT, () => {
-    console.log(`Con`)
+    console.log(`Connected to http://localhost:${process.env.PORT}`)
 })
