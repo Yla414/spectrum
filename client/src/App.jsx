@@ -14,7 +14,16 @@ const App = () => {
           <Route path='/' element={<Homepage />}></Route>
           <Route path='/register' element={<Register />}></Route>
           <Route path='/login' element={<Login />}></Route>
-          <ProtectedRoute path='/dashboard' element={<Dashboard />} allowedRoles={['Seller', 'Creator']}></ProtectedRoute>
+          <Route 
+            {...rest}
+            render={(props) => {
+                if(user && allowedRoles.includes(user.role)) {
+                    return <Component {...props} />
+                } else {
+                    return navigate('/login');
+                }
+            }}
+        ></Route>
         </Routes>
       </BrowserRouter>
     </div>
