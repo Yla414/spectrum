@@ -35,6 +35,6 @@ export const register = (userData) => async (dispatch) => {
         const response = await api.post('http://localhost:5000/auth/register', userData);
         console.log(response.data.message);
     } catch (error) {
-        console.error('rEGISTRATIO')
+        console.error('rEGIS')
     }
 }
