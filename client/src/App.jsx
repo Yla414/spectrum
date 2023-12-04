@@ -20,4 +20,6 @@ const App = () => {
   )
 }
 
+const getDashboard = ()
+
 export default App
