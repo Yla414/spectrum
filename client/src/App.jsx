@@ -23,7 +23,7 @@ const App = () => {
   const navigateToLogin = () => {
     window.location.href = '/login'
   }
-  
+
   useEffect(() => {
     const storedToken = localStorage.getItem('token');
 
@@ -43,7 +43,7 @@ const App = () => {
         navigateToLogin()
       })
     }
-  }, [navigate, dispatch]);
+  }, [, dispatch]);
 
   return (
     <div>
