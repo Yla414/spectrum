@@ -46,7 +46,7 @@ const App = () => {
         dispatch(logout());
       })
     }
-  }, [, dispatch]);
+  }, [,dispatch]);
 
   return (
     <div>
