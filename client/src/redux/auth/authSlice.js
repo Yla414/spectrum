@@ -41,7 +41,7 @@ export const register = (userData) => async (dispatch) => {
 
 export const login = (credentials) => async (dispatch) => {
     try {
-        const response = await api
+        const response = await api.p
     } catch (error) {
         
     }
