@@ -9,6 +9,7 @@ const Register = () => {
     const handleRegister = () => {
         dispatch(register(formData))
     }
+    
   return (
     <div>
       
