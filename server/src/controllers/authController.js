@@ -52,7 +52,7 @@ const login = async (req, res) => {
 
         const token = generateToken(user);
         res.json({ token });
-        res.status(200).jso
+        res.status(200).json({ me })
     } catch (error) {
         console.error(error);
         res.status(500).json({ error: 'Internal server error' });
