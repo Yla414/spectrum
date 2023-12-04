@@ -5,4 +5,4 @@ const Dashboard = () => {
     return ()
 }
 
-export default D
+export default Dashboard
