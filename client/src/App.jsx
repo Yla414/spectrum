@@ -16,11 +16,11 @@ const App = () => {
       case 'Creator':
         return <CreatorDashboard />
       default:
-      const navigateToLogin = () => {
-        window.location.href = '/login'
-      }
         return <GuestDashboard />
     }
+  }
+  const navigateToLogin = () => {
+    window.location.href = '/login'
   }
 
   useEffect(() => {
