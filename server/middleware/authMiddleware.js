@@ -1,1 +1,1 @@
-const jwt = require('jso')
+const jwt = require('jsonwebto')
