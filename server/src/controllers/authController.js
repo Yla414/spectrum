@@ -12,4 +12,4 @@ const generateToken = (user) => {
     return jwt.sign(payload, crypto.randomBytes(32).toString('hex'), { expiresIn: '1d' });
 }
 
-const register = async (req)
+const register = async (req, res) => {}
