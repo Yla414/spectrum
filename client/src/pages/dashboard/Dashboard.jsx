@@ -16,7 +16,7 @@ const Dashboard = () => {
         navigate('/login')
     }
 
-    const { username = 'Guest', role = 'Guest' } = u
+    const { username = 'Guest', role = 'Guest' } = user
     
     return (
         <div>
