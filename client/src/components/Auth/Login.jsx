@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import axios from '../../api/axios';
 import { useNavigate, Link } from 'react-router-dom'
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { setUser, setToken } from '../../redux/auth/authSlice'
 
 const Register = () => {
