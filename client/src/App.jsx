@@ -18,7 +18,9 @@ const App = () => {
     }
   }
 
-  useEffect(() => {}, [])
+  useEffect(() => {
+    const s
+  }, [])
 
   return (
     <div>
