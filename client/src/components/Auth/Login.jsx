@@ -14,7 +14,7 @@ const Register = () => {
         e.preventDefault();
         try {
             const response = await axios.post('/auth/login', {
-                email, password
+                email, password, role
             });
 
             // Save user and the token generated to redux state
