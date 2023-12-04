@@ -20,7 +20,7 @@ const register = async (req, res) => {
         const hashedPassword = await bcrypt.hash(req.body.password, salt)
         const newUser = await UserModel.create({
             username: req.body.username,
-            passwo
+            password,
             email: req.body.email,
             role: req.body.role,
         });
