@@ -39,8 +39,9 @@ const Register = () => {
         </label>
         <label>
             Password:
-            <input type="password" name="password" value={password} onChange={(e) => setPassword(e.target)} />
+            <input type="password" name="password" value={password} onChange={(e) => setPassword(e.target.value)} />
         </label>
+        
 
         <button type="submit">Register</button>
       </form>
