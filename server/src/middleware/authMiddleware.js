@@ -3,7 +3,7 @@ const jwt = require('jsonwebtoken');
 const authenticate = (req, res, next) => {
     try {
         const token = req.headers.authorization.split(' ')[1];
-        if(!token) {9'A
+        if(!token) {9'Auth
             throw new Error
         }
         req.user = decode;
