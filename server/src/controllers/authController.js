@@ -13,5 +13,5 @@ const generateToken = (user) => {
 }
 
 const register = async (req, res) => {
-    
+    try
 }
