@@ -57,4 +57,4 @@ const login = async (req, res) => {
     }
 }
 
-module
+module.exports 
