@@ -16,6 +16,6 @@ mongoose
     .then(() => {
         console.log('MongoDB connection successful!');
         app.listen(process.env.PORT, () => {
-            console.log(`Server c`)
+            console.log(`Server co`)
         })
     })
