@@ -6,4 +6,5 @@ const authMiddleware = (req, res, next) => {
     if(!token) {
         return res.status(401).json({ message: 'Unathorized. No token provided!' });
     }
+    
 }
