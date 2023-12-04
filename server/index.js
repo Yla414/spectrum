@@ -9,7 +9,7 @@ const routes = require('./src/routes/authRoutes');
 const app = express();
 dotenv.config();
 
-app.use('/api', routes);
+app.use('/a', routes);
 
 mongoose
     .connect(process.env.MONGO_URI)
