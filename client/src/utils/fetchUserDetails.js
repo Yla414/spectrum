@@ -10,6 +10,8 @@ const fetchUserDetails = async (dispatch) => {
         });
 
         const { user } = response.data;
+
+        
     } catch (error) {
         
     }
