@@ -21,6 +21,6 @@ const register = async (req, res) => {
             role: req.body.role,
         });
 
-        const token = generateTok
+        const token = generateToken(n)
     }
 }
