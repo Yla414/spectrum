@@ -1,3 +1,3 @@
 const mongoose = require('mongoose');
 
-const userSchema = new mongoog
+const userSchema = new mongoose.Schema({})
