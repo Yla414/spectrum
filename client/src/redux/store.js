@@ -1,4 +1,4 @@
 import { configureStore } from "@reduxjs/toolkit";
 import authReducer from "./auth/authSlice";
 
-const store = configur
+const store = configureStore
