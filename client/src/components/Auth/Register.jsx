@@ -27,7 +27,7 @@ const Register = () => {
     }
   return (
     <div>
-      <h1></h1>
+      <h1>Regi</h1>
     </div>
   )
 }
