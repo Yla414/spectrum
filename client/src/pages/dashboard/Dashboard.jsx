@@ -2,7 +2,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 
 const Dashboard = () => {
-    co
+    const user = u
     return ()
 }
 
