@@ -10,7 +10,7 @@ const Register = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
-    const handle = async (e) => {
+    const handleLogin = async (e) => {
         e.preventDefault();
         try {
             const response = await axios.post('/auth/login', {
@@ -31,7 +31,7 @@ const Register = () => {
   return (
     <div>
       <h1>Register</h1>
-      <form onSubmit={handle}>
+      <form onSubmit={handleLogin}>
         {/* <label>
             Username:
             <input type="text" name="username" value={username} onChange={(e) => setUsername(e.target.value)} />
