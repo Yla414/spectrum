@@ -7,7 +7,7 @@ import { setToken, setUser } from './redux/auth/authSlice';
 
 const App = () => {
   const navigateToLogin = () => {
-    
+    window.location.href = '/login'
   }
   const userRole = useSelector(state => state.auth.user?.role);
   const dispatch = useDispatch();
