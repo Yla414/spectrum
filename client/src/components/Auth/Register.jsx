@@ -1,7 +1,8 @@
 import React from 'react'
-import axios from ''
+import axios from 'axios';
 
 const Register = () => {
+    consst
   return (
     <div>
       
