@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import axios from 'axios';
+import axios from '../../api/axios';
 import { useNavigate, Link } from 'react-router-dom'
 import { useDispatch } from 'react-redux';
 import { setUser, setToken } from '../../redux/auth/authSlice'
@@ -15,7 +15,7 @@ const Register = () => {
     const handleRegister = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:5000/api/auth/register', {
+            const response = await axios.post('/auth/register', {
                 username, email, password, role
             });
 
