@@ -18,6 +18,6 @@ const authSlice = createSlice({
         setToken: (state, action) => {
             state.token = action.payload;
         },
-        resetAuth: (state, action)
+        resetAuth: (state, action) 
     }
 })
