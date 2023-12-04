@@ -10,7 +10,7 @@ const Register = () => {
     });
 
     const handleChange = (e) => {
-        setFormData({ ...formData, [e.target.name]: e.tar })
+        setFormData({ ...formData, [e.target.name]: e.target.val })
     }
   return (
     <div>
