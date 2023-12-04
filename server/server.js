@@ -13,5 +13,5 @@ dotenv.config();
 connectDB();
 
 app.listen(process.env.PORT, () => {
-    console.log()
+    console.log(`Con`)
 })
