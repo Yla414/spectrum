@@ -1,8 +1,8 @@
 const jwt = require('jsonwebtoken');
 
 const authenticate = (req, res, next) => {
-    req.user = decode;
+    tryreq.user = decode;
     next();
 } catch (error) {
-    res
+    
 }
