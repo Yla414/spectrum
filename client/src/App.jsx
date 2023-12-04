@@ -6,7 +6,8 @@ const App = () => {
     <div>
       <BrowserRouter>
         <Routes>
-          <
+          
+        </Routes>
       </BrowserRouter>
     </div>
   )
