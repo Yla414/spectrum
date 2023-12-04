@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 const Dashboard = () => {
     const redirect = useProtectedRoute(['Seller', 'Creator']);
     const user = useSelector((state) => state.auth.user);
-    const navigate = use
+    const navigate = useNavigate
     
     if(redirect) {
         return redirect;
