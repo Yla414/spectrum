@@ -21,7 +21,7 @@ const App = ({ component: Component, allowedRoles, ...rest }) => {
             {...rest}
             render={(props) => {
                 if(user && allowedRoles.includes(user.role)) {
-                    return <Dashboard {...props} />
+                    return <Component {...props} />
                 } else {
                     return window.location.href = '/login';
                 }
