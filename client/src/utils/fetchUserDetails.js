@@ -7,7 +7,7 @@ const fetchUserDetails = async (dispatch) => {
         console.log(token)
         const response = await axios.get('/user/me', {
             headers: {
-                Authorization: `Bearer ${}`
+                Authorization: `Bearer ${token}`
             },
         });
 
