@@ -23,5 +23,5 @@ const register = async (req, res) => {
 
         const token = generateToken(newUser);
         res.status(201).json({ token });
-    } catch 
+    } catch (e)
 }
