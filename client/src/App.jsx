@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { useSelector, useDispatch } from 'react-redux'
 import { Homepage, Register, Login, SellerDashboard, CreatorDashboard, GuestDashboard } from './components/components.exports';
 import axios from './api/axios'
+import { setUser } from './redux/auth/authSlice';
 
 const App = () => {
   const userRole = useSelector(state => state.auth.user?.role);
@@ -29,7 +30,7 @@ const App = () => {
         }
       }).then((res) => {
         const { user } = res.data;
-        dispatch(setUser)
+        dispatch(setUser(user)
       })
     }
   }, [])
