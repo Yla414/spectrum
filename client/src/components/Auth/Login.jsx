@@ -19,7 +19,7 @@ const Register = () => {
 
     const handleLogin = async (e) => {
         e.preventDefault();
-        window.localStorage.setItem('userLoggedIn', true)
+        window.localStorage.setItem('userLoggedIn', true);
         try {
             const response = await axios.post('/auth/login', {
                 username, password
@@ -32,6 +32,7 @@ const Register = () => {
 
               dispatch(setUser(user));
               dispatch(setToken(token));
+              
 
               navigate('/dashboard');
         } catch (error) {
