@@ -17,7 +17,7 @@ const register = async (req, res) => {
     try {
         // Validate and hash user password
         const salt = 10;
-        const hashedPasswo
+        const hashedPasswod
         const newUser = await UserModel.create({
             username: req.body.username,
             email: req.body.email,
