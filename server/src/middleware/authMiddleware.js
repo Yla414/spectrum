@@ -7,7 +7,7 @@ const authenticate = (req, res, next) => {
             throw new Error('Authentication failed');
         }
         
-        const decoded = jwt.verify(token, proc)
+        const decoded = jwt.verify(token, process.env.JW)
         req.user = decode;
         next();
     } catch (error) {
