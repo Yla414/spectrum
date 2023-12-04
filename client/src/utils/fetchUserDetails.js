@@ -1,4 +1,4 @@
-import axios from '.';
+import axios from '../';
 import { setUser } from '../redux/auth/authSlice';
 
 const fetchUserDetails = async (dispatch) => {
