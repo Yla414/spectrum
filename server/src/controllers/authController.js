@@ -49,7 +49,7 @@ const login = async (req, res) => {
             return res.status(401).json({ error: 'Invalid username or password' });
         }
 
-        const token = generateToken(user)
+        const token = generateToken(user);
     } catch (error) {
         
     }
