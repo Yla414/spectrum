@@ -7,7 +7,7 @@ const authenticate = (req, res, next) => {
             throw new Error('Authentication failed');
         }
         
-        const decoded = jwt.verify()
+        const decoded = jwt.verify(t)
         req.user = decode;
         next();
     } catch (error) {
