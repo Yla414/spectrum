@@ -40,7 +40,7 @@ const App = () => {
         navigate('/login');
       })
     }
-  }, [n, dispatch]);
+  }, [navigate, dispatch]);
 
   return (
     <div>
