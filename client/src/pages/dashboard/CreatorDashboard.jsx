@@ -6,6 +6,8 @@ import fetchUserDetails from '../../utils/fetchUserDetails';
 const CreatorDashboard = () => {
   const dispatch = useDispatch();
   const user = useSelector((state) => state.auth.user);
+
+  
   return (
     <div>
       <h2>Welcome to the Creator dashboard {user && user.username}!</h2>
