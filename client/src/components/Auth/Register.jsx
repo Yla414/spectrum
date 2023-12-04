@@ -22,7 +22,7 @@ const Register = () => {
         </label>
         
         <label>
-            ema:
+            :
             <input type="text" value={formData.username || ''} onChange={(e) => setFormData({...formData, username: e.target.value})} />
         </label>
 
