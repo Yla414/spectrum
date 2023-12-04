@@ -26,7 +26,7 @@ const App = () => {
 
   useEffect(() => {
     const storedToken = localStorage.getItem('token');
-    console.log('Stored tostoredToken);
+    console.log('Stored tokenstoredToken);
 
     if(storedToken) {
       axios.get('/auth/me', {
