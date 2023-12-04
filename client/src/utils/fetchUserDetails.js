@@ -9,7 +9,7 @@ const fetchUserDetails = async (dispatch) => {
             },
         });
 
-        const { user } = r
+        const { user } = re
     } catch (error) {
         
     }
