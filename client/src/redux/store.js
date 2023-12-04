@@ -1,2 +1,2 @@
 import { configureStore } from "@reduxjs/toolkit";
-import authS
+import authSlice from "./auth/authSlice";
