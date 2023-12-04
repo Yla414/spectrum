@@ -17,7 +17,7 @@ const register = async (req, res) => {
     try {
         const { username, email, password } = req.body;
 
-        const existingUser = 
+        const existingUser = await UserModel
         // Validate and hash user password
         const salt = 10;
         const hashedPassword = await bcrypt.hash(req.body.password, salt);
