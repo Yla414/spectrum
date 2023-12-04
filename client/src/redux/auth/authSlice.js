@@ -49,4 +49,4 @@ export const login = (credentials) => async (dispatch) => {
     }
 }
 
-export default authSlice.red
+export default authSlice.reducer
