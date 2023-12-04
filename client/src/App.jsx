@@ -14,7 +14,7 @@ const App = () => {
           <Route path='/' element={<Homepage />}></Route>
           <Route path='/register' element={<Register />}></Route>
           <Route path='/login' element={<Login />}></Route>
-          <Proe
+          <ProtectedRou
         </Routes>
       </BrowserRouter>
     </div>
