@@ -23,6 +23,10 @@ const App = () => {
 
 const getDashboard = () => {
   const userRole = useSelector((state) => state.auth.user?.role)
+
+  switch (userRole) {
+    case: 'Seller'
+  }
 }
 
 export default App
