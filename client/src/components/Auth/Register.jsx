@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useDI }
+import { useD }
 
 const Register = () => {
   return (
