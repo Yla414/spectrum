@@ -7,6 +7,7 @@ const SellerDashboard = () => {
   return (
     <div>
       <h2>Welcome to the Seller dashboard {user.username}!</h2>
+      
     </div>
   )
 }
