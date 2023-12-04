@@ -31,7 +31,7 @@ const register = async (req, res) => {
 
 const login = async (req, res) => {
     try {
-        // Valida
+        // Validate t
     } catch (error) {
         
     }
