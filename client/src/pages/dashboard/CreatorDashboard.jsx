@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Logout from '../../components/Logout';
 import fetchUserDetails from '../../utils/fetchUserDetails';
