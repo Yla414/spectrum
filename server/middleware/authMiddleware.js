@@ -7,5 +7,5 @@ const authMiddleware = (req, res, next) => {
         return res.status(401).json({ message: 'Unathorized. No token provided!' });
     }
 
-    jwt.verify(token, process.env.JWT_SECRET)
+    jwt.verify(token, process.env.JWT_SECRET_)
 }
