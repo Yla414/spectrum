@@ -34,7 +34,7 @@ const App = () => {
         dispatch(setUser(user));
         dispatch(setToken(storedToken));
       })
-      .catch(())
+      .catch((e))
     }
   }, [])
 
