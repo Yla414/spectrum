@@ -1,3 +1,3 @@
 const express = require('express');
 const router = express.Router();
-const bcrypt = r
+const bcrypt = require('bcr')
