@@ -8,7 +8,7 @@ const User = require('../models/User');
 // REGISTRATION ROUTE
 router.post('/register', async (req, res) => {
     try {
-        const { username, email, passwo }
+        const { username, email, password, role }
     } catch (error) {
 
     }
