@@ -10,7 +10,7 @@ router.post('/register', async (req, res) => {
     try {
         const { username, email, password, role } = req.body;
 
-        // 
+        // Check
     } catch (error) {
 
     }
