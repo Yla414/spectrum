@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-imp
+import {}
 
 const Register = () => {
   return (
