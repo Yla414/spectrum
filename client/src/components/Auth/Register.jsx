@@ -17,6 +17,7 @@ const Register = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        awa
     }
   return (
     <div>
