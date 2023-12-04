@@ -16,6 +16,7 @@ const Logout = () => {
   return (
     <div>
       <button onClick={handleLogout}>
+        <RiLogoutCircleLine />
         Logout
       </button>
     </div>
