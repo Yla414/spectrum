@@ -19,6 +19,7 @@ const Register = () => {
 
     const handleLogin = async (e) => {
         e.preventDefault();
+        
         try {
             const response = await axios.post('/auth/login', {
                 username, password
@@ -52,7 +53,7 @@ const Register = () => {
         </label>
         <label>
             Password:
-            <input type="password" name="password"  value={password} onChange={(e) => setPassword(e.target.value)} />
+            <input type="password" name="password" autoComplete='off' value={password} onChange={(e) => setPassword(e.target.value)} />
         </label>
 
         <button type="submit">Login</button>
