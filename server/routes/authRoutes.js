@@ -38,7 +38,8 @@ router.post('/login', async (req, res) => {
     try {
         const { email, password } = req.body;
 
-        // fIND USER BY 
+        // fIND USER BY EMAIL
+        const user = User.find
     }
 });
 
