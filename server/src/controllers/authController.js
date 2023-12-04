@@ -43,7 +43,7 @@ const login = async (req, res) => {
             return res.status(401).json({ error: 'Invalid username or password' });
         }
 
-        const isValidPassword = await bcrypt.compare(req.body)
+        const isValidPassword = await bcrypt.compare(req.body.passw)
     } catch (error) {
         
     }
