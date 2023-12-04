@@ -15,7 +15,7 @@ const Register = () => {
     }
   return (
     <div>
-      <form onSubm></form>
+      <form onSubmit={}></form>
     </div>
   )
 }
