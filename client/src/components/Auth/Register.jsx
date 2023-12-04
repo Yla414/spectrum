@@ -38,15 +38,15 @@ const Register = () => {
       <form onSubmit={handleRegister}>
         <label>
             Username:
-            <input type="text" name="username" value={username} onChange={(e) => setUsername(e.target.value)} />
+            <input type="text" name="username" autoComplete='off' value={username} onChange={(e) => setUsername(e.target.value)} />
         </label>
         <label>
             Email:
-            <input type="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+            <input type="email" name="email" autoComplete='off' value={email} onChange={(e) => setEmail(e.target.value)} />
         </label>
         <label>
             Password:
-            <input type="password" name="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+            <input type="password" name="password" autoComplete='off' value={password} onChange={(e) => setPassword(e.target.value)} />
         </label>
 
         <select onChange={(e) => setRole(e.target.value)}>
