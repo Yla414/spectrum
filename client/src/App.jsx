@@ -35,7 +35,7 @@ const App = () => {
         dispatch(setToken(storedToken));
       })
       .catch((error) => {
-        console.error
+        console.error('Error')
       })
     }
   }, [])
