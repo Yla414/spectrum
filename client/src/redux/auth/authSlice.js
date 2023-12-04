@@ -45,6 +45,6 @@ export const login = (credentials) => async (dispatch) => {
         const { token } = response.data;
         dispatch(setToken(token));
     } catch (error) {
-        console.error('Login fai')
+        console.error('Login failed')
     }
 }
