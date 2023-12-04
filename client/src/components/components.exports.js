@@ -5,4 +5,4 @@ import SellerDashboard from '../pages/dashboard/SellerDashboard'
 import Login from './auth/Login'
 import Register from './auth/Register'
 
-e
+export 
