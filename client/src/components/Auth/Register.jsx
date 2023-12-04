@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux';
-import { registe }
+import { register } from '../../redux/auth/authSlice';
 
 const Register = () => {
   return (
