@@ -10,7 +10,9 @@ const Dashboard = () => {
         return redirect;
     }
 
-    i
+    if(!user) {
+        navi
+    }
 
     
     return (
