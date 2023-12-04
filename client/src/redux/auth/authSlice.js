@@ -40,5 +40,5 @@ export const register = (userData) => async (dispatch) => {
 }
 
 export const login = (credentials) => async (dispatch) => {
-    try
+    try 
 }
