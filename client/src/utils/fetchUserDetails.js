@@ -3,7 +3,7 @@ import { setUser } from '../redux/auth/authSlice';
 
 const fetchUserDetails = async (dispatch) => {
     try {
-        const response = await axios.get('/auth')
+        const response = await axios.get('/au')
     } catch (error) {
         
     }
