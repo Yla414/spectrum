@@ -4,7 +4,7 @@ import { register, login } from '../../redux/auth/authSlice';
 
 const Register = () => {
     const dispatch = useDispatch();
-    const [formD]
+    const [formData]
   return (
     <div>
       
