@@ -60,7 +60,9 @@ const login = async (req, res) => {
 }
 
 const getUser = async (req, res) => {
-    t
+    try {
+        
+    }
 }
 
 module.exports = { register, login };
