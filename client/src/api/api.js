@@ -1,3 +1,3 @@
 import axios from 'axios';
 
-const i
+const instance = axios.
