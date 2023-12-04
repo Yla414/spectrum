@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useDispatch } from 'rea'
+import { useDispatch } from 'react-redux'
 
 const Register = () => {
   return (
