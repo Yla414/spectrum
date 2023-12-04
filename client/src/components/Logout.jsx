@@ -7,7 +7,7 @@ const Logout = () => {
 
     const handleLogout = () => {
         dispatch(logout());
-        localStorage.r
+        localStorage.rem
     }
   return (
     <div>
