@@ -22,7 +22,7 @@ const App = () => {
 }
 
 const getDashboard = () => {
-  const userRole = useSelector((state) => state.auth.use?)
+  const userRole = useSelector((state) => state.auth.user?.role)
 }
 
 export default App
