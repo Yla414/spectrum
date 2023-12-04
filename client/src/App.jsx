@@ -30,7 +30,7 @@ const App = () => {
     console.log('Stored token:', storedToken);
 
     if(storedToken) {
-      axios.get(`/user/${user.}`, {
+      axios.get(`/user/${user.us}`, {
         headers: {
           Authorization: `Bearer ${storedToken}`,
         }
