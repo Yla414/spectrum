@@ -26,7 +26,7 @@ const getDashboard = () => {
 
   switch (userRole) {
     case 'Seller':
-      return <SellerDash
+      return <SellerDashboard />
   }
 }
 
