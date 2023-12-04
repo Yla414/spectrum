@@ -23,7 +23,7 @@ const App = () => {
     const storedToken = localStorage.getItem('token');
 
     if(storedToken) {
-      axios.get('/auth')
+      axios.get('/auth/me')
     }
   }, [])
 
