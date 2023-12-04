@@ -5,8 +5,8 @@ const App = () => {
   return (
     <div>
       <BrowserRouter>
-        <Routes>
-          
+        <Routes></Routes>
+          <Route path='/' element={<Homepage}></Route>
         </Routes>
       </BrowserRouter>
     </div>
