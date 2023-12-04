@@ -17,6 +17,8 @@ dotenv.config();
 // Database connection
 connectDB();
 
+// R
+
 app.listen(process.env.PORT, () => {
     console.log(`Connected to http://localhost:${process.env.PORT}`)
 })
