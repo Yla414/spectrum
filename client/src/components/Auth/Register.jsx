@@ -9,7 +9,7 @@ const Register = () => {
         role: 'Guest'
     });
 
-    const 
+    const handleChange = (e) 
   return (
     <div>
       
