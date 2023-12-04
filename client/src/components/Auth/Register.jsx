@@ -42,7 +42,7 @@ const Register = () => {
             <input type="password" name="password" value={formData.password} onChange={handleChange} />
         </label>
 
-        <button></button>
+        <button  >Register</button>
       </form>
     </div>
   )
