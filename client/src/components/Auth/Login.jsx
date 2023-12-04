@@ -12,7 +12,9 @@ const Register = () => {
     const [password, setPassword] = useState('');
 
     useEffect(() => {
-      if()
+      if(user) {
+        na
+      }
     }, [user, navigate])
 
     const handleLogin = async (e) => {
