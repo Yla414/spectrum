@@ -35,10 +35,10 @@ const Register = () => {
     <div>
       <h1>Register</h1>
       <form onSubmit={handleRegister}>
-        <label>
+        {/* <label>
             Username:
             <input type="text" name="username" value={username} onChange={(e) => setUsername(e.target.value)} />
-        </label>
+        </label> */}
         <label>
             Email:
             <input type="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} />
