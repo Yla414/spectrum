@@ -6,7 +6,7 @@ import Register from './components/auth/Register'
 import Login from './components/auth/Login'
 import GuestDashboard from './pages/dashboard/GuestDashboard';
 import SellerDashboard from './pages/dashboard/SellerDashboard';
-import Creat from './pages/dashboard/Creat';
+import CreatorDashboard from './pages/dashboard/CreatorDashboard';
 
 const App = () => {
   return (
@@ -28,7 +28,7 @@ const getDashboard = () => {
 
   switch (userRole) {
     case 'Seller':
-      return <SellerDashboard />
+      return <SellerDashboard />;
   }
 }
 
