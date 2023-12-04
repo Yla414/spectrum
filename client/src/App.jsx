@@ -1,18 +1,10 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Homepage from './components/Homepage';
-import PageNotFound from './components/PageNotFound';
-import Register from './components/auth/Register';
+import React from 'react'
+import { }
 
 const App = () => {
   return (
     <div>
-      <Router>
-        <Routes>
-          <Route path='*' element={<PageNotFound />}></Route>
-          <Route path='/' element={<Homepage />}></Route>
-          <Route path='/register' element></Route>
-        </Routes>
-      </Router>
+      
     </div>
   )
 }
