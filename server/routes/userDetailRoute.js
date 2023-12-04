@@ -7,5 +7,5 @@ const authMiddleware = require('../middleware/authMiddleware');
 dotenv.config();
 
 router.get('/user', authMiddleware, (req, res) => {
-    
+    t
 })
