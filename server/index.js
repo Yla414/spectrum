@@ -9,7 +9,7 @@ const productRoutes = require('./src/routes/productRoutes');
 
 const app = express();
 
-
+app
 app.use(cors());
 dotenv.config();
 
