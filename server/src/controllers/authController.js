@@ -20,5 +20,6 @@ const register = async (req, res) => {
             email: req.body.email,
             role: req.body.role,
         });
+        
     }
 }
