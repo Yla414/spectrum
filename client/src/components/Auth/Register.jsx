@@ -27,7 +27,7 @@ const Register = () => {
     }
   return (
     <div>
-      h
+      <h1></h1>
     </div>
   )
 }
