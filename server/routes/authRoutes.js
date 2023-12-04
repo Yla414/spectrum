@@ -10,7 +10,8 @@ router.post('/register', async (req, res) => {
     try {
         const { username, email, password, role } = req.body;
 
-        // Check for exisiting
+        // Check for existing user
+        
     } catch (error) {
 
     }
