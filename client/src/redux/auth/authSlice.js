@@ -18,4 +18,5 @@ const authSlice = createSlice({
             state.token = null;
         }
     }
-})
+});
+
