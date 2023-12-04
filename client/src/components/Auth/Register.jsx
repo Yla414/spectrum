@@ -29,7 +29,10 @@ const Register = () => {
     <div>
       <h1>Register</h1>
       <form onSubmit={handleSubmit}>
-        <label htmlFo"></label>
+        <label>
+            Username:
+            <
+        </label>
       </form>
     </div>
   )
