@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Homepage from './components/Homepage';
+import Homepage from './components/Homepage'
 import Register from './components/auth/Register'
 
 const App = () => {
