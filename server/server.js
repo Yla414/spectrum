@@ -20,7 +20,7 @@ connectDB();
 
 // Routes
 app.use('/api/auth', authRoutes);
-app.use('/api/me', user)
+app.use('/api/me', userRo)
 
 app.listen(process.env.PORT, () => {
     console.log(`Connected to http://localhost:${process.env.PORT}`)
