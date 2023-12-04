@@ -1,5 +1,5 @@
 import React from 'react'
-import 
+import { useSelector } from 'react-redux';
 
 const SellerDashboard = () => {
   return (
