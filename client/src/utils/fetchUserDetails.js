@@ -3,7 +3,7 @@ import { setUser } from '../redux/auth/authSlice';
 
 const fetchUserDetails = async (dispatch) => {
     try {
-        const response
+        const response = 
     } catch (error) {
         
     }
