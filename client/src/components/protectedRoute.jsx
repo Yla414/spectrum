@@ -12,7 +12,7 @@ const ProtectedRoute = ({ component: Component, allowedRoles, ...rest }) => {
                 if(user && allowedRoles.includes(user.role)) {
                     return <Component {...props} />
                 } else {
-                    return navigate()
+                    return navigate('/login');
                 }
             }}
         ></Route>
