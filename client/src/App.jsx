@@ -17,7 +17,7 @@ const App = ({ component, allowedRoles, ...rest }) => {
           <Route path='/register' element={<Register />}></Route>
           <Route path='/login' element={<Login />}></Route>
           
-        {/* <ProtectedRoute path='/dashboard' component={<Dashboard />} allowedRoles={['Seller', 'Creator']} ></ProtectedRoute> */}
+        
         </Routes>
       </BrowserRouter>
     </div>
