@@ -51,7 +51,7 @@ router.post('/login', async (req, res) => {
     if (!user) {
       const response = res
         .status(401)
-        .json({ message: 'Invalid use or password' })
+        .json({ message: 'Invalid username or password' })
       console.log(response)
       return response
     }
