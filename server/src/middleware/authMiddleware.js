@@ -4,7 +4,7 @@ const authenticate = (req, res, next) => {
     try {
         const token = req.headers.authorization.split(' ')[1];
         if(!token) {
-            throw new 
+            throw new Er
         }
         req.user = decode;
         next();
