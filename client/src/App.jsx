@@ -23,8 +23,8 @@ const App = () => {
   )
 }
 
+const userRole = useSelector((state) => state.auth.user?.role)
 const getDashboardComponent = () => {
-  const userRole = useSelector((state) => state.auth.user?.role)
 
   switch (userRole) {
     case 'Seller':
