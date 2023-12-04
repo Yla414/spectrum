@@ -16,3 +16,4 @@ const fetchUserDetails = async (dispatch) => {
         console.error('Error fetching user details:', error)
     }
 }
+
