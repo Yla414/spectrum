@@ -10,7 +10,7 @@ import CreatorDashboard from './pages/dashboard/CreatorDashboard'
 
 const App = () => {
   const userRole = useSelector(state => state.auth.user?.role)
-  const getDashboardComponent = () => {
+  const GetDashboardComponent = () => {
     switch (userRole) {
       case 'Seller':
         return <SellerDashboard />
@@ -27,7 +27,7 @@ const App = () => {
           <Route path='/' element={<Homepage />}></Route>
           <Route path='/register' element={<Register />}></Route>
           <Route path='/login' element={<Login />}></Route>
-          <Route path='/dashboard' element={<getDashboardComponent}></Route>
+          <Route path='/dashboard' element={getDashboardComponent}></Route>
         </Routes>
       </BrowserRouter>
     </div>
