@@ -11,7 +11,7 @@ const app = express();
 dotenv.config();
 
 app.use('/auth', authRoutes);
-app.use('/auth', authRoutes);
+app.use('/p', authRoutes);
 
 mongoose
     .connect(process.env.MONGO_URI)
