@@ -6,5 +6,6 @@ import Login from './auth/Login'
 import Register from './auth/Register'
 
 export {
-    Homepage, GuestDashboard, CreatorDashboard
+    Homepage, GuestDashboard, CreatorDashboard,
+    S
 }
