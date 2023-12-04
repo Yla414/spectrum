@@ -7,4 +7,4 @@ const userSchema = new mongoose.Schema({
     role: { type: String, enum: ['guest', 'seller', 'creator'], default: 'guest' }
 });
 
-const User = mongoos
+const User = mongoose.model('')
