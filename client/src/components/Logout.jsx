@@ -6,7 +6,7 @@ const Logout = () => {
     const dispatch = useDispatch();
 
     const handleLogout = () => {
-        dispatch()
+        dispatch(logout)
     }
   return (
     <div>
