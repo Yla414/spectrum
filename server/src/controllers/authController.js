@@ -18,7 +18,8 @@ const register = async (req, res) => {
         const { username, email, password } = req.body;
 
         const existingUser = await UserModel.findOne({ email });
-        
+
+        if()
         // Validate and hash user password
         const salt = 10;
         const hashedPassword = await bcrypt.hash(req.body.password, salt);
