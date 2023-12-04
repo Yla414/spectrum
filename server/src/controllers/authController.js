@@ -50,8 +50,8 @@ const login = async (req, res) => {
         }
 
         const token = generateToken(user);
-        res.json({ to })
+        res.json({ token });
     } catch (error) {
-        
+        c
     }
 }
