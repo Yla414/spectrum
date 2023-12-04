@@ -46,7 +46,7 @@ const login = async (req, res) => {
     try {
         const { email, password } = req.body;
         // Validate the credentials
-        const user = UserModel.findOne({ username: req.body. });
+        const user = UserModel.findOne({ username });
 
         if(!user) {
             return res.status(401).json({ error: 'Invalid username or password' });
