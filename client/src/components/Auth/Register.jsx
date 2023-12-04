@@ -20,8 +20,11 @@ const Register = () => {
             });
 
             // Save user and the token generated to redux state
-            dispatch(setUser(response.data.user));
-            dispatch(setToken(response.data.token));
+            if(response) {
+                dispatch(setUser(response.data.user));
+                dispatch(setToken(response.data.token));
+                    
+            }
             console.log(response.data);
         } catch (error) {
             console.error('Error registering user:', error.response.data.message);
