@@ -15,6 +15,7 @@ const generateToken = (user) => {
 
 const register = async (req, res) => {
     try {
+        
         // Validate and hash user password
         const salt = 10;
         const hashedPassword = await bcrypt.hash(req.body.password, salt);
@@ -67,4 +68,4 @@ const getUser = async (req, res) => {
     }
 }
 
-module.exports = { register, login, get };
+module.exports = { register, login, getUser };
