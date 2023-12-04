@@ -4,6 +4,8 @@ const authenticate = (req, res, next) => {
     try {
         req.user = decode;
         next();
-    } catch (error)
+    } catch (error) {
+        
+    }
     
 }
