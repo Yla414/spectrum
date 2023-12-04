@@ -10,7 +10,7 @@ const App = () => {
         <Routes>
           <Route path='*' element={<PageNotFound />}></Route>
           <Route path='/' element={<Homepage />}></Route>
-          
+          <
         </Routes>
       </Router>
     </div>
