@@ -27,4 +27,4 @@ const authSlice = createSlice({
 });
 
 export const { setUser, setToken, resetAuth } = authSlice.actions;
-export selectUser
+export const selectUser 
