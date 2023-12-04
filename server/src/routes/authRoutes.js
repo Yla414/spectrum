@@ -24,26 +24,7 @@ router.post('/register', async (req, res) => {
 });
 
 router.post('/login', sync (req, res) => {
-    try {
-        // Validate the credentials
-        const user = UserModel.findOne({ username: req.body.username });
-
-        if(!user) {
-            return res.status(401).json({ error: 'Invalid username or password' });
-        }
-
-        const isValidPassword = await bcrypt.compare(req.body.password, user.password);
-
-        if(!isValidPassword) {
-            return res.status(401).json({ error: 'Invalid username or password' });
-        }
-
-        const token = generateToken(user);
-        res.json({ token });
-    } catch (error) {
-        console.error(error);
-        res.status(500).json({ error: 'Internal server error' });
-    }
+    
 })
 
 
