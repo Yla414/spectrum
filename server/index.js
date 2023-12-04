@@ -5,11 +5,13 @@ const bodyParser = require('body-parser');
 const dotenv = require('dotenv');
 
 const authRoutes = require('./src/routes/authRoutes');
+const productRoutes = require('./src/routes/productRoutes');
 
 const app = express();
 dotenv.config();
 
 app.use('/auth', authRoutes);
+// app.use('/product', productRoutes);
 
 mongoose
     .connect(process.env.MONGO_URI)
