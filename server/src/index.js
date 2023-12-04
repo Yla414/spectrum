@@ -11,4 +11,4 @@ dotenv.config();
 
 app.use('/api', routes);
 
-mongoose.connect(process.env.MONG)
+mongoose.connect(process.env.MONGO)
