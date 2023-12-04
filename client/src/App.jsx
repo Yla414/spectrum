@@ -18,7 +18,8 @@ const App = () => {
     }
   }
 
-  useE
+  useEffect
+  
   return (
     <div>
       <BrowserRouter>
