@@ -13,7 +13,7 @@ router.post('/register', async (req, res) => {
         // Check for existing user
         const existingUser = await User.findOne({ username });
         if(existingUser) {
-            return res.status(400).json(({ message: 'Username already exists...!' }));
+            const res.status(400).json(({ message: 'Username already exists...!' }));
         }
 
         // Password hashing
@@ -23,7 +23,7 @@ router.post('/register', async (req, res) => {
         const newUser = new User({ username, email, password: hashedPassword, role });
         await newUser.save();
 
-        res.status(201).json({ message: 'User registered successfully!' })
+        res.status(201).json({ message: 'User registered successfully!' });
     } catch (error) {
 
     }
