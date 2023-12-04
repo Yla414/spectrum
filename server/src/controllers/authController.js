@@ -22,5 +22,6 @@ const register = async (req, res) => {
         });
 
         const token = generateToken(newUser);
+        res.
     }
 }
