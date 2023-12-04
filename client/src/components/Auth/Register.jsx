@@ -15,7 +15,7 @@ const Register = () => {
     }
   return (
     <div>
-      <form onSubmit={h}></form>
+      <form onSubmit={handle}></form>
     </div>
   )
 }
