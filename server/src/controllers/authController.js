@@ -34,7 +34,9 @@ const login = async (req, res) => {
         // Validate the credentials
         const user = UserModel.findOne({ username: req.body.username });
 
-        if(!user) 
+        if(!user) {
+            
+        }
     } catch (error) {
         
     }
