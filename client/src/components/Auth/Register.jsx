@@ -6,7 +6,8 @@ const Register = () => {
     const navigate = useNavigate();
     const [username, setUsername] = useState('');
     const [email, setEmail] = useState('');
-    const [passw]
+    const [password, setPassword] = useState('');
+    co
     
   return (
     <div>
