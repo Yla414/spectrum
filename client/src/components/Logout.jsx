@@ -2,7 +2,7 @@ import React from 'react'
 import { useDispatch } from 'react-redux'
 import { logout } from '../redux/auth/authSlice'
 import { useNavigate } from 'react-router-dom'
-im
+import 
 
 const Logout = () => {
     const dispatch = useDispatch();
