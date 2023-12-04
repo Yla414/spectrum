@@ -20,4 +20,4 @@ const authSlice = createSlice({
     }
 });
 
-export const { set }
+export const { setUser, setTok }
