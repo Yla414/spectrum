@@ -1,3 +1,3 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://l'
+const API_BASE_URL = 'http://loc'
