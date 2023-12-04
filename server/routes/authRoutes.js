@@ -22,7 +22,7 @@ router.post('/register', async (req, res) => {
       return response
     }
 
-    const existingEmail = await User.findOne({ username })
+    const existingEmail = await User.findOne({ email })
     if (existingUser) {
       const response = res
         .status(400)
