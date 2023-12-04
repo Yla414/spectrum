@@ -7,4 +7,4 @@ const dotenv = require('dotenv');
 const routes = require('./routes');
 
 const app = express();
-dotenv.c
+dotenv.config
