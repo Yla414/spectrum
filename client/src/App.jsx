@@ -4,7 +4,7 @@ import Homepage from './components/Homepage'
 import Register from './components/auth/Register'
 import Login from './components/auth/Login'
 import Dashboard from './pages/dashboard/Dashboard';
-import ProtectedRoute from './components/ProtectedRoute';
+import useProtectedRoute from './components/ProtectedRoute';
 import { useSelector } from 'react-redux';
 
 const App = ({ component, allowedRoles, ...rest }) => {
