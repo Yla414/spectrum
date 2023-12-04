@@ -5,5 +5,6 @@ const authSlice = createSlice({
     initialState: {
         user: null,
         token: null,
-    }
+    },
+    reducers
 })
