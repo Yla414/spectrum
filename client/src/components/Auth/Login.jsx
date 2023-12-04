@@ -25,7 +25,7 @@ const Register = () => {
             }
             console.log(response.data);
         } catch (error) {
-            console.error('Error loggin user:', error.response.data.message);
+            console.error('Error logging user:', error.response.data.message);
         }
     }
     
