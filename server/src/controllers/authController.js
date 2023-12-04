@@ -20,7 +20,7 @@ const register = async (req, res) => {
         const existingUser = await UserModel.findOne({ email });
 
         if(existingUser) {
-            return res.json
+            return res.stat
         }
         // Validate and hash user password
         const salt = 10;
