@@ -48,14 +48,8 @@ const Register = () => {
             <input type="password" name="password" value={password} onChange={(e) => setPassword(e.target.value)} />
         </label>
 
-        <select onChange={(e) => setRole(e.target.value)}>
-            <option value="Guest">Guest</option>
-            <option value="Seller">Seller</option>
-            <option value="Creator">Creator</option>
-        </select>
-
         <button type="submit">Login</button>
-        <Link to={'/login'}>Register</Link>
+        <Link to={'/register'}>Register</Link>
         
       </form>
     </div>
