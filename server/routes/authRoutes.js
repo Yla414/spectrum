@@ -6,4 +6,4 @@ const User = require('../models/User');
 
 
 // REGISTRATION ROUTE
-router.post('/register', (req, res))
+router.post('/register', (req, res) => )
