@@ -7,7 +7,9 @@ const CreatorDashboard = () => {
   const dispatch = useDispatch();
   const user = useSelector((state) => state.auth.user);
 
-  useEffect(() => {}, [])
+  useEffect(() => {
+    if
+  }, [])
 
   return (
     <div>
