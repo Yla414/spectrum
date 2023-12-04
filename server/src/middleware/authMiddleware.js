@@ -11,7 +11,7 @@ const authenticate = (req, res, next) => {
         req.user = decoded;
         next();
     } catch (error) {
-        res.status(402).json({ error: 'Authentication failed!' });
+        res.status(401).json({ error: 'Authentication failed!' });
     }
     
 };
