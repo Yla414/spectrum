@@ -13,9 +13,6 @@ app.use(express.json());
 app.use(cors());
 dotenv.config();
 
-// ROUTES
-app.use('/auth', authRoutes);
-// app.use('/product', productRoutes);
 mongoose
     .connect(process.env.MONGO_URI)
     .then(() => {
@@ -25,3 +22,7 @@ mongoose
         })
     })
     .catch((error) => console.log('Error connecting to MongoDB:', error));
+
+    // ROUTES
+app.use('/auth', authRoutes);
+// app.use('/product', productRoutes);
