@@ -1,1 +1,1 @@
-const mongoose = requir
+const mongoose = require('mongoose')
