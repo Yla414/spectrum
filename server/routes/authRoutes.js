@@ -17,7 +17,7 @@ router.post('/register', async (req, res) => {
     if (existingUser) {
       const response = res
         .status(400)
-        .json({ message: 'Username already exists...!' })
+        .json({ message: 'user  already exists...!' })
       console.log(response)
       return response
     }
