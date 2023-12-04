@@ -2,7 +2,7 @@ import React from 'react'
 import axios from 'axios';
 
 const Register = () => {
-    const [formData, setFormData] = useState
+    const [formData, setFormData] = useSta
   return (
     <div>
       
