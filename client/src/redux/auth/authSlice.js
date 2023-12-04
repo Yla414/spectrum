@@ -6,3 +6,4 @@ const initialState = {
     token: null,
     isAuthenticated: false,
 }
+
