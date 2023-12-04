@@ -35,7 +35,7 @@ const Register = () => {
         </label>
         <label>
             Email:
-            <input type="emai" name="email" value={formData.email} onChange={handleChange} />
+            <input type="email" name="email" value={formData.email} onChange={handleChange} />
         </label>
         <label>
             Username:
