@@ -25,6 +25,6 @@ const register = async (req, res) => {
         res.status(201).json({ token });
     } catch (error) {
         console.error(error);
-        res.stat
+        res.status(500).
     }
 }
