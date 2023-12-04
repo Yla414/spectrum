@@ -18,7 +18,7 @@ const register = async (req, res) => {
         // Validate and hash user password
         const salt = 10;
         const hashedPassword = await bcrypt.hash(req.body.password, salt);
-        
+
         const newUser = await UserModel.create({
             username: req.body.username,
             password: hashedPassword,
@@ -43,7 +43,7 @@ const login = async (req, res) => {
             return res.status(401).json({ error: 'Invalid username or password' });
         }
 
-        const 
+        const is
     } catch (error) {
         
     }
