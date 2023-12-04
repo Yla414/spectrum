@@ -4,7 +4,9 @@ import { useNavigate, Route } from 'react-router-dom';
 
 const ProtectedRoute = (allowedRoles) => {
     const user = useSelector((state) => state.auth.user);
-    if(!user || !allowedRoles.includes())
+    if(!user || !allowedRoles.includes(user.role)) {
+        
+    }
     const navigate = useNavigate();
     return (
         
