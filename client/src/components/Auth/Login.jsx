@@ -19,7 +19,7 @@ const Register = () => {
 
             // Save user and the token generated to redux state
             if(response) {
-              console.log('Logged in user:', resp)
+              console.log('Logged in user:', response.da)
               dispatch(setUser(response.data.user));
               dispatch(setToken(response.data.token));
               navigate('/dashboard');
