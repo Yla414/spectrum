@@ -3,6 +3,6 @@ const UserModel = require('../models/user');
 
 const generateToken = (user) => {
     const payload: {
-        id: user._
+        id: user._id
     }
 }
