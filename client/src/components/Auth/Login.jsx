@@ -11,7 +11,9 @@ const Register = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
 
-    useEffect(() => {}, [user, navig])
+    useEffect(() => {
+      
+    }, [user, navigate])
 
     const handleLogin = async (e) => {
         e.preventDefault();
