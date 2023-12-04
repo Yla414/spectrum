@@ -10,7 +10,7 @@ const Logout = () => {
     const handleLogout = () => {
         dispatch(logout());
         localStorage.removeItem('token');
-        nav
+        navigate
     }
   return (
     <div>
