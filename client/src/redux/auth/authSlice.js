@@ -49,4 +49,6 @@ export const login = (credentials) => async (dispatch) => {
     }
 }
 
-export const logout = () => {}
+export const logout = () => {
+    
+}
