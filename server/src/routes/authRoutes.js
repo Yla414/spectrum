@@ -23,7 +23,7 @@ router.post('/register', async (req, res) => {
     }
 });
 
-router.post('/login', sync (req, res) => {
+router.post('/login', async (req, res) => {
     try {
         // Validate the credentials
         const user = UserModel.findOne({ username: req.body.username });
