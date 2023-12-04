@@ -6,7 +6,8 @@ const ProtectedRoute = ({ component: Component, allowedRoles, ...rest }) => {
     const user = useSelector((state) => state.auth.user);
     return (
         <Route 
-        {...rest}
+            {...rest}
+            render
         ></Route>
     )
 }
