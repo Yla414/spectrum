@@ -43,6 +43,8 @@ const Register = () => {
         </label>
 
         <select onChange={(e) => setRole(e.target.value)}>
+            <option value="Guest">Guest</option>
+            <option value="Guest">Guest</option>
             <option value="Guest"></option>
         </select>
 
