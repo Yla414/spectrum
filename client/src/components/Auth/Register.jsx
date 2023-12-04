@@ -5,7 +5,8 @@ const Register = () => {
     const [formData, setFormData] = useState({
         username: '',
         email: '',
-        
+        password: '',
+        role: 'Guest'
     });
   return (
     <div>
