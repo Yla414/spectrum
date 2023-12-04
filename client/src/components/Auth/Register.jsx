@@ -39,7 +39,7 @@ const Register = () => {
         </label>
         <label>
             Password:
-            <input type="password" name="password" value={formData.password} onChange={} />
+            <input type="password" name="password" value={password} onChange={} />
         </label>
 
         <button type="submit">Register</button>
