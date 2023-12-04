@@ -33,6 +33,7 @@ export const selectToken = (state) => state.auth.token;
 export const register = (userData) => async (dispatch) => {
     try {
         const response = await api.post('http://localhost:5000/auth/register', userData);
+        
     } catch (error) {
         
     }
