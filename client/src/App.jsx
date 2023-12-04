@@ -6,7 +6,7 @@ import Register from './components/auth/Register'
 import Login from './components/auth/Login'
 import GuestDashboard from './pages/dashboard/GuestDashboard';
 import SellerDashboard from './pages/dashboard/SellerDashboard';
-import GuestDashboard from './pages/dashboard/GuestDashboard';
+import Creat from './pages/dashboard/Creat';
 
 const App = () => {
   return (
