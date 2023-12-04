@@ -6,7 +6,7 @@ const Register = () => {
     const dispatch = useDispatch();
     const [formData, setFormData] = useState({});
 
-    const handleRegis
+    const handleRegister
   return (
     <div>
       
