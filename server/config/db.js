@@ -1,3 +1,3 @@
 const mongoose = require('mongoose');
 
-const connectDB
+const connectDB = as
