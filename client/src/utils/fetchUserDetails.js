@@ -5,7 +5,7 @@ const fetchUserDetails = async (dispatch) => {
     try {
         const response = await axios.get('/user', {
             headers: {
-                Authorization: `Beare`
+                Authorization: `Bearer`
             }
         })
     } catch (error) {
