@@ -1,5 +1,5 @@
 const express = require('express');
 const router = express.Router();
-cons
+const auth
 
 module.exports = router;
