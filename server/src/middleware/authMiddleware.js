@@ -2,6 +2,7 @@ const jwt = require('jsonwebtoken');
 
 const authenticate = (req, res, next) => {
     try {
+        co
         req.user = decode;
         next();
     } catch (error) {
