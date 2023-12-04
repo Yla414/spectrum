@@ -3,7 +3,7 @@ import { setUser } from '../redux/auth/authSlice';
 
 const fetchUserDetails = async (dispatch) => {
     try {
-        const 
+        const to
         const response = await axios.get('/user/me', {
             headers: {
                 Authorization: `Bearer ${localStorage.getItem('token')}`
