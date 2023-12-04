@@ -1,1 +1,1 @@
-const jwt = require('jsonwe')
+const jwt = require('jsonwebtoke')
