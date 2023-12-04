@@ -25,6 +25,10 @@ const Register = () => {
             Email:
             <input type="text" value={formData.email || ''} onChange={(e) => setFormData({...formData, email: e.target.value})} />
         </label>
+        <label>
+            Email:
+            <input type="text" value={formData.email || ''} onChange={(e) => setFormData({...formData, email: e.target.value})} />
+        </label>
 
       </form>
     </div>
