@@ -9,8 +9,8 @@ const User = require('../models/User');
 router.post('/register', async (req, res) => {
     try {
 
-        
-    }
+
+    } 
 });
 
 
