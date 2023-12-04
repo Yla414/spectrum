@@ -15,5 +15,7 @@ mongoose
     .connect(process.env.MONGO_URI)
     .then(() => {
         console.log('MongoDB connection successful!');
-        app.listen(process.env.PORT, () => {})
+        app.listen(process.env.PORT, () => {
+            
+        })
     })
