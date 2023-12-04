@@ -1,5 +1,5 @@
 import React from 'react'
-im
+import L
 
 const CreatorDashboard = () => {
   return (
