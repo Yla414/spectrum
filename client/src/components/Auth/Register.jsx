@@ -1,4 +1,4 @@
-import React, { use } from 'react'
+import React, { useStat } from 'react'
 
 const Register = () => {
   return (
