@@ -9,7 +9,7 @@ const CreatorDashboard = () => {
 
   useEffect(() => {
     if(user) {
-      fetchUserDetails(dispatch)
+      fetchUserDetails(dispatch);
     }
   }, [])
 
