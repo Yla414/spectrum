@@ -7,7 +7,7 @@ const Register = () => {
     const [formData, setFormData] = useState({});
 
     const handleRegister = () => {
-        dispatch(re)
+        dispatch(register)
     }
   return (
     <div>
