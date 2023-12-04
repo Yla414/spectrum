@@ -42,7 +42,7 @@ const Register = () => {
             <input type="password" name="password" value={password} onChange={(e) => setPassword(e.target.value)} />
         </label>
 
-        <select onChange={()}></select>
+        <select onChange={(e) => setRole}></select>
 
         <button type="submit">Register</button>
       </form>
