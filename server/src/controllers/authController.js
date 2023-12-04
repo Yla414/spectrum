@@ -28,6 +28,7 @@ const register = async (req, res) => {
 
         const token = generateToken(newUser);
         res.status(201).json({ token });
+        r
     } catch (error) {
         console.error(error);
         res.status(500).json({ error: 'Internal server error' });
@@ -57,4 +58,4 @@ const login = async (req, res) => {
     }
 }
 
-module.exports = { register, login }
+module.exports = { register, login };
