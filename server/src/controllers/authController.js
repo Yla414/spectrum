@@ -62,7 +62,7 @@ const login = async (req, res) => {
 const getUser = async (req, res) => {
     try {
 
-    } catch ()
+    } catch (error) 
 }
 
 module.exports = { register, login };
