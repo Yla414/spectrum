@@ -19,7 +19,7 @@ const App = () => {
   }
 
   useEffect(() => {
-    const storedToken = localStorage.getItem('tok')
+    const storedToken = localStorage.getItem('token');
   }, [])
 
   return (
