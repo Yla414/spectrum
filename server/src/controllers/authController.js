@@ -8,5 +8,5 @@ const generateToken = (user) => {
         role: user.role,
     };
 
-    re
+    return
 }
