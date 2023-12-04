@@ -19,6 +19,6 @@ const register = async (req, res) => {
             username: req.body.username,
             email: req.body.email,
             role: req.body.role,
-        })
+        });
     }
 }
