@@ -28,7 +28,8 @@ const Register = () => {
   return (
     <div>
       <h1>Register</h1>
-      <form action=""></form>
+      <form action="
+      "></form>
     </div>
   )
 }
