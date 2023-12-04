@@ -3,6 +3,6 @@ import authReducer from "./auth/authSlice";
 
 const store = configureStore({
     reducer: {
-        auth: authred
+        auth: authReducer
     }
 })
