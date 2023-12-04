@@ -21,13 +21,13 @@ const Register = () => {
         .then((res) => {
             console.log(res.data);
             if(res) {
-                navigate('/')
+                navigate('/');
             }
         })
     }
   return (
     <div>
-      
+      h
     </div>
   )
 }
