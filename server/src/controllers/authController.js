@@ -14,7 +14,7 @@ const generateToken = (user) => {
 
 const register = async (req, res) => {
     try {
-        const { username, email, password, } = req.body;
+        const { username, email, password, r } = req.body;
 
         const existingUser = await UserModel.findOne({ email });
 
