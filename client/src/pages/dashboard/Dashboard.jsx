@@ -11,7 +11,7 @@ const Dashboard = () => {
     }
 
     if(!user) {
-        navi
+        navigate
     }
 
     
