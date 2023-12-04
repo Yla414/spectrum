@@ -8,9 +8,7 @@ const ProtectedRoute = (allowedRoles) => {
     if(!user || !allowedRoles.includes(user.role)) {
         return navigate('/login');
     }
-    return (
-        
-    )
+    return null;
 }
 
 export default ProtectedRoute;
