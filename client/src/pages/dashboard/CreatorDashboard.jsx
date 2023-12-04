@@ -3,7 +3,7 @@ import React from 'react'
 const CreatorDashboard = () => {
   return (
     <div>
-      <h2>Welco</h2>
+      <h2>Welcome to the Creator dashb</h2>
     </div>
   )
 }
