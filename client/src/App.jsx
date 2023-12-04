@@ -6,10 +6,10 @@ import axios from './api/axios'
 import { setToken, setUser } from './redux/auth/authSlice';
 
 const App = () => {
+  const userRole = useSelector(state => state.auth.user?.role);
   const navigateToLogin = () => {
     window.location.href = '/login'
   }
-  const userRole = useSelector(state => state.auth.user?.role);
   const dispatch = useDispatch();
 
   const GetDashboardComponent = () => {
