@@ -1,1 +1,1 @@
-const jwt = requ
+const jwt = require
