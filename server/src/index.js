@@ -19,4 +19,4 @@ mongoose
             console.log(`Server connected to http://localhost:${process.env.PORT}`);
         })
     })
-    .catch((error) => console.log('Error connecting to'))
+    .catch((error) => console.log('Error connecting to M'))
