@@ -14,7 +14,7 @@ router.get('/me', authMiddleware, async (req, res) => {
         const user = await User.findById(userId);
 
         if(!user) {
-            re
+            return res
         }
     }
 })
