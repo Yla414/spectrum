@@ -39,7 +39,8 @@ router.post('/login', async (req, res) => {
         const { email, password } = req.body;
 
         // fIND USER BY EMAIL
-        const user = User.findOne({ email })
+        const user = User.findOne({ email });
+        if(!us)
     }
 });
 
