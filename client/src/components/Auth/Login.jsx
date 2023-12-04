@@ -14,14 +14,14 @@ const Register = () => {
         e.preventDefault();
         try {
             const response = await axios.post('/auth/login', {
-                email, password, role
+                email, password
             });
 
             // Save user and the token generated to redux state
             if(response) {
               console.log('Logged in user:', response.data.user)
               dispatch(setUser(response.data.user));
-              dispatch(setTok(response.data.token));
+              dispatch(setToken(response.data.token));
               navigate('/dashboard');
             }
         } catch (error) {
