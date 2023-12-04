@@ -5,7 +5,7 @@ import Register from './components/auth/Register'
 import Login from './components/auth/Login'
 import Dashboard from './pages/dashboard/Dashboard';
 import ProtectedRoute from './components/ProtectedRoute';
-// import { useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 
 const App = ({ component: Component, allowedRoles, ...rest }) => {
   // const user = useSelector((state) => state.auth.user);
@@ -27,11 +27,7 @@ const App = ({ component: Component, allowedRoles, ...rest }) => {
                 }
             }}
         ></Route> */}
-        <>
-        <Route>
-        <ProtectedRoute path='/dashboard' component={Dashboard} allowedRoles={['Seller', 'Creator']} ></ProtectedRoute>
-        </Route>
-        </>
+        <ProtectedRoute path='/dashboard' component={<Dashboard />} allowedRoles={['Seller', 'Creator']} ></ProtectedRoute>
         </Routes>
       </BrowserRouter>
     </div>
