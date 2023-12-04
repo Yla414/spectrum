@@ -22,7 +22,7 @@ const App = () => {
     const storedToken = localStorage.getItem('token');
 
     if(storedToken) {
-      axios
+      axios.
     }
   }, [])
 
