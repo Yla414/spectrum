@@ -19,7 +19,7 @@ const Register = () => {
 
     const handleLogin = async (e) => {
         e.preventDefault();
-        window.localStorage.setItem('us')
+        window.localStorage.setItem('userLogged')
         try {
             const response = await axios.post('/auth/login', {
                 username, password
