@@ -3,6 +3,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom'
 
 const Register = () => {
+    const navigate = useN
     const [formData, setFormData] = useState({
         username: '',
         email: '',
