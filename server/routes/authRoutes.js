@@ -42,7 +42,8 @@ router.post('/login', async (req, res) => {
         const user = User.findOne({ email });
         if(!user) {
             const response = res.status(401).json({ message: 'Invalid email or password' });
-            console.log((resp))
+            console.log((response));
+            return response;
         }
     }
 });
