@@ -9,7 +9,9 @@ const Register = () => {
         role: 'Guest'
     });
 
-    const handleChange = (e) => {}
+    const handleChange = (e) => {
+        setFor
+    }
   return (
     <div>
       
