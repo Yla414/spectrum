@@ -8,7 +8,9 @@ const CreatorDashboard = () => {
   const user = useSelector((state) => state.auth.user);
 
   useEffect(() => {
-    if(user)
+    if(user) {
+      
+    }
   }, [])
 
   return (
