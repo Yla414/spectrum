@@ -1,5 +1,4 @@
 import React from 'react'
-import Logout
 import Logout from '../../components/Logout';
 
 const CreatorDashboard = () => {
