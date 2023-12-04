@@ -4,7 +4,7 @@ import Homepage from './components/Homepage'
 import Register from './components/auth/Register'
 import Login from './components/auth/Login'
 import Dashboard from './pages/dashboard/Dashboard';
-impoer 
+import ProtectedRou
 
 const App = () => {
   return (
