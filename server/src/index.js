@@ -9,4 +9,4 @@ const routes = require('./routes');
 const app = express();
 dotenv.config();
 
-app.use('/api', r)
+app.use('/api', route)
