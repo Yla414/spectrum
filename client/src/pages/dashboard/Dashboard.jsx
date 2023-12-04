@@ -4,12 +4,12 @@ import useProtectedRoute from '../../hooks/ProtectedRoute'
 
 const Dashboard = () => {
     const redirect = useProtectedRoute(['Seller', 'Creator']);
+    const user = useSelector((state) => state.auth.user);
     
     if(redirect) {
         return redirect;
     }
 
-    const user = useSelector((state) => state.auth.user);
     
     return (
         <div>
