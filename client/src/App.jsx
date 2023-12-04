@@ -21,7 +21,9 @@ const App = () => {
   useEffect(() => {
     const storedToken = localStorage.getItem('token');
 
-    if(storedToken) {}
+    if(storedToken) {
+      
+    }
   }, [])
 
   return (
