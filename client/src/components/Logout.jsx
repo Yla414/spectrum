@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux'
 import { logout } from '../redux/auth/authSlice'
 
 const Logout = () => {
-    co
+    const 
   return (
     <div>
       
