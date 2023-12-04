@@ -53,6 +53,9 @@ router.post('/login', async (req, res) => {
             console.log(response);
             return response;
         }
+
+        // Generate JWT token
+        const token 
     }
 });
 
