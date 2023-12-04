@@ -5,7 +5,7 @@ import { Homepage, Register, Login, SellerDashboard, CreatorDashboard, GuestDash
 
 const App = () => {
   const userRole = useSelector(state => state.auth.user?.role);
-  const dispatch = 
+  const dispatch = use
 
   const GetDashboardComponent = () => {
     switch (userRole) {
