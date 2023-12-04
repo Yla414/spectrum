@@ -9,7 +9,9 @@ const Register = () => {
     const [password, setPassword] = useState('');
     const [role, setRole] = useState('Guest');
 
-    const handleRegister = async (e) => {}
+    const handleRegister = async (e) => {
+        e.preventDef
+    }
     
   return (
     <div>
