@@ -29,7 +29,7 @@ const App = ({ component: Component, allowedRoles, ...rest }) => {
         ></Route> */}
         <>
         <Route>
-          
+        <ProtectedRoute path='/dashboard' component={Dashboard} allowedRoles={['Seller', 'Creator']} ></ProtectedRoute>
         </Route>
         </>
         </Routes>
