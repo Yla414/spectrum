@@ -6,4 +6,4 @@ const ProtectedRoute = ({ component: Component, allowedRoles, ...rest }) => {
 
 }
 
-export defau
+export default ProtectedRoute;
