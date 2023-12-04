@@ -25,6 +25,7 @@ const Register = () => {
                 dispatch(setToken(response.data.token));
                 navigate('/login')
             }
+            co
             console.log(response.data);
         } catch (error) {
             console.error('Error registering user:', error.response.data.message);
