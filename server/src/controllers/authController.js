@@ -44,7 +44,7 @@ const register = async (req, res) => {
 
 const login = async (req, res) => {
     try {
-        const {  }
+        const { ema }
         // Validate the credentials
         const user = UserModel.findOne({ username: req.body.username });
 
