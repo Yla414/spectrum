@@ -20,6 +20,6 @@ router.get('/me', authMiddleware, async (req, res) => {
         res.status(200).json({ user });
     } catch (error) {
         console.error('Error fetching user details:', error);
-        r
+        res.
     }
 })
