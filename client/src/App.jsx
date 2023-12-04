@@ -7,7 +7,6 @@ import { setToken, setUser, logout } from './redux/auth/authSlice';
 
 const App = () => {
   const userRole = useSelector(state => state.auth.user?.role);
-  const userRole = useSelector(state => state.auth.user?.role);
   const dispatch = useDispatch();
 
   const GetDashboardComponent = () => {
@@ -30,7 +29,7 @@ const App = () => {
     console.log('Stored token:', storedToken);
 
     if(storedToken) {
-      axios.get(`/user/${}`, {
+      axios.get(`/user/$`, {
         headers: {
           Authorization: `Bearer ${storedToken}`,
         }
