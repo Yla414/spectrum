@@ -9,7 +9,7 @@ const authMiddleware = (req, res, next) => {
 
     jwt.verify(token, process.env.JWT_SECRET_KEY, (err, decoded) => {
         if(err) {
-            re
+            return res.stat
         }
     })
 }
