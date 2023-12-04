@@ -41,7 +41,7 @@ export const register = (userData) => async (dispatch) => {
 
 export const login = (credentials) => async (dispatch) => {
     try {
-        const response = await api.post('http://localhost:5000/auth/')
+        const response = await api.post('http://localhost:5000/auth/l')
     } catch (error) {
         
     }
