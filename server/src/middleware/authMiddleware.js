@@ -1,3 +1,3 @@
 const jwt = require('jsonwebtoken');
 
-const authenticate = ()
+const authenticate = (req)
