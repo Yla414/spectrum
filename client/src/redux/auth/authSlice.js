@@ -1,1 +1,1 @@
-import { create }
+import { createSlice }import { createSlice } from '@';
