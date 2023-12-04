@@ -10,4 +10,4 @@ const authenticate = (req, res, next) => {
     
 };
 
-module.exports = {}
+module.exports = { a }
