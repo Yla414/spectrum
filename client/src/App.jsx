@@ -31,6 +31,7 @@ const App = () => {
       }).then((res) => {
         const { user } = res.data;
         dispatch(setUser(user));
+        
       })
     }
   }, [])
