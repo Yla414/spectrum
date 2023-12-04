@@ -10,8 +10,8 @@ const Register = () => {
     const dispatch = useDispatch();
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
-    
-    useEffect(())
+
+    useEffect(() => )
 
     const handleLogin = async (e) => {
         e.preventDefault();
