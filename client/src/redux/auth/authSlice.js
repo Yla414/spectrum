@@ -30,4 +30,4 @@ export const { setUser, setToken, resetAuth } = authSlice.actions;
 export const selectUser = (state) => state.auth.user;
 export const selectToken = (state) => state.auth.token;
 
-export const register = (userData) => async (di)
+export const register = (userData) => async (dispatch) 
