@@ -6,7 +6,7 @@ const dotenv = require('dotenv');
 const authMiddleware = require('../middleware/authMiddleware');
 dotenv.config();
 
-router.get('/user', authMiddleware, a(req, res) => {
+router.get('/user', authMiddleware, asy(req, res) => {
     try {
         const userId = req.user.userId;
 
