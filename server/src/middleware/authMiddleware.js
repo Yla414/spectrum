@@ -7,7 +7,7 @@ const authenticate = (req, res, next) => {
             throw new Error('Authentication failed');
         }
         
-        const decoded
+        const decoded = 
         req.user = decode;
         next();
     } catch (error) {
