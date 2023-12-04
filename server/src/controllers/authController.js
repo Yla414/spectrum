@@ -52,11 +52,12 @@ const login = async (req, res) => {
 
         const token = generateToken(user);
         res.json({ token });
-        res.status(200).json({ messge: "User logged in successfully" })
+        res.status(200).json({ messge: "User logged in successfully" });
     } catch (error) {
         console.error(error);
         res.status(500).json({ error: 'Internal server error' });
     }
 }
+
 
 module.exports = { register, login };
