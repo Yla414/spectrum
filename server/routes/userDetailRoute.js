@@ -8,6 +8,6 @@ dotenv.config();
 
 router.get('/user', authMiddleware, (req, res) => {
     try {
-        const userId = req.us
+        const userId = req.user.u
     }
 })
