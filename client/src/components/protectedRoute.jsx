@@ -6,7 +6,7 @@ const ProtectedRoute = (allowedRoles) => {
     const user = useSelector((state) => state.auth.user);
     const navigate = useNavigate();
     if(!user || !allowedRoles.includes(user.role)) {
-
+        re
     }
     return (
         
