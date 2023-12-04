@@ -4,5 +4,5 @@ import api from '../../api';
 const initialState = {
     user: null,
     token: null,
-    isA
+    isAu
 }
