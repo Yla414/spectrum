@@ -20,6 +20,7 @@ const authSlice = createSlice({
         },
         resetAuth: (state, action) => {
             state.user = null;
+            
             state.isAuthenticated = false;
         }
     }
