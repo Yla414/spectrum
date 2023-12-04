@@ -16,7 +16,7 @@ const Register = () => {
                 username, email, password, role
             });
 
-            // Save user and th
+            // Save user and the token generated to redux state
         }
     }
     
