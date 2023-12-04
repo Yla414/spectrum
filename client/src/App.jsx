@@ -28,11 +28,12 @@ const App = () => {
         headers: {
           Authorization: `Bearer ${storedToken}`,
         }
-      }).then((res) => {
+      })
+      .then((res) => {
         const { user } = res.data;
         dispatch(setUser(user));
         dispatch(setToken(storedToken));
-      }).catch
+      }).catch()
     }
   }, [])
 
