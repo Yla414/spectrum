@@ -12,4 +12,4 @@ dotenv.config();
 
 connectDB();
 
-app.listen
+app.listen(process.env.PORT, ())
