@@ -32,7 +32,6 @@ const Register = () => {
         <button type="submit">Register</button>
       </form>
       <form onSubmit={handleLogin}>
-
         <label>
             Email:
             <input type="email" value={formData.email || ''} onChange={(e) => setFormData({...formData, email: e.target.value})} />
