@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
     try {
-        await m
+        await mongoose.conn
     } catch (error) {
         
     }
