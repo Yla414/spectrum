@@ -1,3 +1,3 @@
 const mongoose = require('mongoose');
 
-const connectDB = as
+const connectDB = async
