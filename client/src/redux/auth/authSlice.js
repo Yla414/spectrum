@@ -39,4 +39,4 @@ export const register = (userData) => async (dispatch) => {
     }
 }
 
-export const login = (credentials) => async (dispa)
+export const login = (credentials) => async (dispatch)
