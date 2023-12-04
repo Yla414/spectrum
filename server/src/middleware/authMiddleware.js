@@ -6,6 +6,7 @@ const authenticate = (req, res, next) => {
         if(!token) {
             throw new Error('Authentication failed');
         }
+        
         req.user = decode;
         next();
     } catch (error) {
