@@ -7,7 +7,7 @@ const Logout = () => {
 
     const handleLogout = () => {
         dispatch(logout());
-        localStorage.removeItem('to')
+        localStorage.removeItem('token')
     }
   return (
     <div>
