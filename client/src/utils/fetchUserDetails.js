@@ -1,4 +1,4 @@
 import axios from 'axios';
 import { setUser } from '../redux/auth/authSlice';
 
-const fetchUserDetails = async (dispa)
+const fetchUserDetails = async (dispatch) 
