@@ -23,4 +23,4 @@ const userSchema = new mongoose.Schema({
     }
 });
 
-module.exp
+module.exports = mongoose.
