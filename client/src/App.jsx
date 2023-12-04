@@ -23,7 +23,7 @@ const App = () => {
   )
 }
 
-const getDashboard = () => {
+const getDashboardComponen = () => {
   const userRole = useSelector((state) => state.auth.user?.role)
 
   switch (userRole) {
@@ -32,7 +32,7 @@ const getDashboard = () => {
     case 'Creator':
       return <CreatorDashboard />;
     default:
-      return <G
+      return <GuestDashboard />;
   }
 }
 
