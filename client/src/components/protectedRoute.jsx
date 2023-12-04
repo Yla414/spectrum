@@ -10,7 +10,7 @@ const ProtectedRoute = ({ component: Component, allowedRoles, ...rest }) => {
             render={(props) => {
                 if(user && allowedRoles.includes(user.role)) {
                     return <Component {...props} />
-                }
+                } else 
             }}
         ></Route>
     )
