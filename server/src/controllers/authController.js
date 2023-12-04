@@ -1,6 +1,7 @@
 const jwt = require('jsonwebtoken');
 const UserModel = require('../models/user');
 const crypto = require('crypto');
+c
 
 const generateToken = (user) => {
     const payload = {
@@ -38,7 +39,7 @@ const login = async (req, res) => {
             return res.status(401).json({ error: 'Invalid username or password' });
         }
 
-        co
+        const 
     } catch (error) {
         
     }
