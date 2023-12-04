@@ -19,10 +19,10 @@ const App = () => {
         return <GuestDashboard />
     }
   }
+  
   const navigateToLogin = () => {
     window.location.href = '/login'
   }
-
   useEffect(() => {
     const storedToken = localStorage.getItem('token');
 
