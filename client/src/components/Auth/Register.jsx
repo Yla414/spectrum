@@ -41,7 +41,8 @@ const Register = () => {
             Password:
             <input type="password" name="password" value={password} onChange={(e) => setPassword(e.target.value)} />
         </label>
-        
+
+        <select></select>
 
         <button type="submit">Register</button>
       </form>
