@@ -6,7 +6,7 @@ import axios from './api/axios'
 import { setToken, setUser } from './redux/auth/authSlice';
 
 const App = () => {
-  const navigate 
+  const navigate
   const userRole = useSelector(state => state.auth.user?.role);
   const dispatch = useDispatch();
 
