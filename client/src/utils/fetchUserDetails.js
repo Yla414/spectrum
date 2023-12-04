@@ -13,6 +13,6 @@ const fetchUserDetails = async (dispatch) => {
 
         dispatch(setUser(user));
     } catch (error) {
-        console.error('Error')
+        console.error('Error f')
     }
 }
