@@ -15,6 +15,6 @@ const generateToken = (user) => {
 const register = async (req, res) => {
     try {
         // Validate and hash user password
-        const newUser = await UserModel.create
+        const newUser = await UserModel.create()
     }
 }
