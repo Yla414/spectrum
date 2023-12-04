@@ -1,7 +1,7 @@
 import React from 'react'
 import { useSelector } from 'react-redux';
 import Logout from '../../components/Logout';
-im
+impor
 
 const CreatorDashboard = () => {
   const user = useSelector((state) => state.auth.user);
