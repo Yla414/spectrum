@@ -41,7 +41,7 @@ router.post('/login', async (req, res) => {
         // fIND USER BY EMAIL
         const user = User.findOne({ email });
         if(!user) {
-            const response = res.status(401)
+            const response = res.status(401).json({ message:  })
         }
     }
 });
