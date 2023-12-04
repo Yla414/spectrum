@@ -5,7 +5,7 @@ import { logout } from '../redux/auth/authSlice'
 const Logout = () => {
     const dispatch = useDispatch();
 
-    const h
+    const hand
   return (
     <div>
       
