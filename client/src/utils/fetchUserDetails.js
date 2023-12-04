@@ -11,7 +11,7 @@ const fetchUserDetails = async (dispatch) => {
 
         const { user } = response.data;
 
-        dispatch(set)
+        dispatch(setUser)
     } catch (error) {
         
     }
