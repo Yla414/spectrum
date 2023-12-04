@@ -32,7 +32,8 @@ const Register = () => {
 
               dispatch(setUser(user));
               dispatch(setToken(token));
-              
+
+              l
 
               navigate('/dashboard');
         } catch (error) {
