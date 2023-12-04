@@ -61,7 +61,7 @@ const login = async (req, res) => {
 
 const getUser = async (req, res) => {
     try {
-        res.status(200).json()
+        res.status(200).json({  })
     } catch (error) {
 
     }
