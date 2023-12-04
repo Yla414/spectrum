@@ -46,7 +46,8 @@ router.post('/login', async (req, res) => {
             return response;
         }
 
-        // Compare input pass
+        // Compare input password
+        
     }
 });
 
