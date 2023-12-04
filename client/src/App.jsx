@@ -4,8 +4,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { Homepage, Register, Login, SellerDashboard, CreatorDashboard, GuestDashboard } from './components/components.exports'
 
 const App = () => {
-  const userRole = useSelector(state => state.auth.user?.role)
-
+  const userRole = useSelector(state => state.auth.user?.role);
 
   const GetDashboardComponent = () => {
     switch (userRole) {
