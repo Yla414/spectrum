@@ -11,7 +11,7 @@ router.post('/register', async (req, res) => {
         const { username, email, password, role } = req.body;
 
         // Check for existing user
-        const existingUser = await 
+        const existingUser = await User.findOne
     } catch (error) {
 
     }
