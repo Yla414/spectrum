@@ -12,6 +12,6 @@ const authMiddleware = (req, res, next) => {
             return res.status(401).json({ message: 'Unauthorized. Invalid token' });
         }
 
-        // Attach user details to the r
+        // Attach user details to the request
     })
 }
