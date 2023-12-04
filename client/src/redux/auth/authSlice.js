@@ -7,4 +7,4 @@ const initialState = {
     isAuthenticated: false,
 }
 
-c
+const
