@@ -1,4 +1,4 @@
-import React, { useState, useE } from 'react'
+import React, { useState, useEffect } from 'react'
 import axios from '../../api/axios';
 import { useNavigate, Link } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux';
@@ -10,6 +10,7 @@ const Register = () => {
     const dispatch = useDispatch();
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
+    
 
     const handleLogin = async (e) => {
         e.preventDefault();
