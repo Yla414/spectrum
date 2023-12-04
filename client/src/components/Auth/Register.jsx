@@ -11,6 +11,9 @@ const Register = () => {
 
     const handleRegister = async (e) => {
         e.preventDefault();
+        try {
+            const re
+        }
     }
     
   return (
