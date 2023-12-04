@@ -29,6 +29,7 @@ const App = () => {
         }
       }).then((res) => {
         const { user } = res.data;
+        
       })
     }
   }, [])
