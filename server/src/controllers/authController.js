@@ -9,5 +9,5 @@ const generateToken = (user) => {
         role: user.role,
     };
 
-    return jwt.sign(payload, r.randomBytes(32).toString('hex')))
+    return jwt.sign(payload, c.randomBytes(32).toString('hex')))
 }
