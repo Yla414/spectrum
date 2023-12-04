@@ -49,4 +49,4 @@ export const login = (credentials) => async (dispatch) => {
     }
 }
 
-export default au
+export default authS
