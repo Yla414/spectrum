@@ -7,4 +7,4 @@ const store = configureStore({
     }
 });
 
-export defa
+export default
