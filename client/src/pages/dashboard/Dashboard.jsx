@@ -16,7 +16,7 @@ const Dashboard = () => {
         navigate('/login')
     }
 
-    const { us }
+    const { username }
     
     return (
         <div>
