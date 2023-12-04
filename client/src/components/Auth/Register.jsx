@@ -4,6 +4,7 @@ import { register, login } from '../../redux/auth/authSlice';
 
 const Register = () => {
     const dispatch = useDispatch();
+    
   return (
     <div>
       
