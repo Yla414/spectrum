@@ -5,4 +5,6 @@ const userSchema = new mongoose.Schema({
     email: { type: String, required: true },
     password: { type: String, required: true },
     role: { type: String, enum: ['guest', 'seller', 'creator'], default: 'guest' }
-})
+});
+
+const User = mongoos
