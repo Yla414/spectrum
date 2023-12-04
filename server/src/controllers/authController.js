@@ -35,7 +35,7 @@ const login = async (req, res) => {
         const user = UserModel.findOne({ username: req.body.username });
 
         if(!user) {
-            return res.status(401).json({ error: 'Invalid username or' })
+            return res.status(401).json({ error: 'Invalid username or password' })
         }
     } catch (error) {
         
