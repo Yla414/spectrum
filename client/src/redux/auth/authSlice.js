@@ -43,7 +43,7 @@ export const login = (credentials) => async (dispatch) => {
     try {
         const response = await api.post('http://localhost:5000/auth/login', credentials);
         const { token } = response.data;
-        dispatch(setToken(token))
+        dispatch(setToken(token));
     } catch (error) {
         
     }
