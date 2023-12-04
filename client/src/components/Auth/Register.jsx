@@ -9,6 +9,7 @@ const Register = () => {
     const handleRegister = (e) => {
         e.preventDefault();
         dispatch(register(formData))
+        c
     }
 
     const handleLogin = (e) => {
