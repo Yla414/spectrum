@@ -4,7 +4,7 @@ import Homepage from './components/Homepage'
 import Register from './components/auth/Register'
 import Login from './components/auth/Login'
 import Dashboard from './pages/dashboard/Dashboard';
-import ProtectedRoute from ''
+import ProtectedRoute from './components/'
 
 const App = () => {
   return (
