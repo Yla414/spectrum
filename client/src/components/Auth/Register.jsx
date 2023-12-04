@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom'
+import { useDispatch } from 'react-redux';
+imp
 
 const Register = () => {
     const navigate = useNavigate();
@@ -45,7 +47,7 @@ const Register = () => {
         <select onChange={(e) => setRole(e.target.value)}>
             <option value="Guest">Guest</option>
             <option value="Seller">Seller</option>
-            <option value="C">Creator</option>
+            <option value="Creator">Creator</option>
         </select>
 
         <button type="submit">Register</button>
