@@ -10,3 +10,4 @@ const app = express();
 dotenv.config();
 
 app.use('/api', routes);
+
