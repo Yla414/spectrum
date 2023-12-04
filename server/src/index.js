@@ -13,4 +13,6 @@ app.use('/api', routes);
 
 mongoose
     .connect(process.env.MONGO_URI)
-    .then(() => {})
+    .then(() => {
+        
+    })
