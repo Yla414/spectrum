@@ -48,7 +48,3 @@ export const login = (credentials) => async (dispatch) => {
         console.error('Login failed:', error);
     }
 }
-
-export const logout = () => {
-    
-}
