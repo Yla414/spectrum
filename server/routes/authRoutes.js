@@ -21,8 +21,8 @@ router.post('/register', async (req, res) => {
       console.log(response)
       return response
     }
-    
-    const existingUser = await User.findOne({ username })
+
+    const existingEmail = await User.findOne({ username })
     if (existingUser) {
       const response = res
         .status(400)
