@@ -28,7 +28,9 @@ const App = ({ component: Component, allowedRoles, ...rest }) => {
             }}
         ></Route> */}
         <>
-        <
+        <Route>
+          
+        </Route>
         </>
         </Routes>
       </BrowserRouter>
