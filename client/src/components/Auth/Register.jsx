@@ -15,7 +15,7 @@ const Register = () => {
     }
   return (
     <div>
-      <form onS></form>
+      <form onSu></form>
     </div>
   )
 }
