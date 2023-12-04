@@ -11,7 +11,7 @@ const Register = () => {
     }
 
     const handleLogin = () => {
-        dispa
+        dispatch
     }
   return (
     <div>
