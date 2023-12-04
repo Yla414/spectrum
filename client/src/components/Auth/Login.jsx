@@ -15,7 +15,7 @@ const Register = () => {
       if(user) {
         navigate('/dashboard');
       }
-    }, [user, navigate])
+    }, [user, navigate]);
 
     const handleLogin = async (e) => {
         e.preventDefault();
