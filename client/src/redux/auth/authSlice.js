@@ -26,4 +26,4 @@ const authSlice = createSlice({
     }
 });
 
-expor
+export 
