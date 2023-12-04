@@ -19,7 +19,7 @@ const register = async (req, res) => {
 
         const existingUser = await UserModel.findOne({ email });
 
-        if(exis)
+        if(existing)
         // Validate and hash user password
         const salt = 10;
         const hashedPassword = await bcrypt.hash(req.body.password, salt);
