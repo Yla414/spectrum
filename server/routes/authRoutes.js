@@ -9,6 +9,8 @@ const User = require('../models/User');
 router.post('/register', async (req, res) => {
     try {
         const { username, email, password, role } = req.body;
+
+        // 
     } catch (error) {
 
     }
