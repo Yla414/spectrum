@@ -45,7 +45,7 @@ const Register = () => {
         <select onChange={(e) => setRole(e.target.value)}>
             <option value="Guest">Guest</option>
             <option value="Seller">Seller</option>
-            <option value="">Creator</option>
+            <option value="C">Creator</option>
         </select>
 
         <button type="submit">Register</button>
