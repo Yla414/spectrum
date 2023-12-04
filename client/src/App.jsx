@@ -7,12 +7,12 @@ import { setToken, setUser } from './redux/auth/authSlice';
 
 const App = () => {
   const userRole = useSelector(state => state.auth.user?.role);
-  const navigateToLogin = () => {
-    window.location.href = '/login'
-  }
   const dispatch = useDispatch();
 
   const GetDashboardComponent = () => {
+    const navigateToLogin = () => {
+      window.location.href = '/login'
+    }
     switch (userRole) {
       case 'Seller':
         return <SellerDashboard />
