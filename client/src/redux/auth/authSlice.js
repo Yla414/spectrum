@@ -15,6 +15,6 @@ const authSlice = createSlice({
             state.user = action.payload;
             state.isAuthenticated = !!action.payload;
         },
-        setToken: ()
+        setToken: (sta)
     }
 })
