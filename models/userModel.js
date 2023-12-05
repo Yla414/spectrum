@@ -8,7 +8,7 @@ var userSchema = new mongoose.Schema({
         unique:true,
         index:true,
     },
-    l:{
+    lastname:{
         type:String,
         required:true,
         unique:true,
