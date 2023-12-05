@@ -41,7 +41,7 @@ const loginUserControl = asyncHandler(async(req, res) => {
 const getAllUsers = asyncHandler (async(req, res) => {
     try {
         const getUsers = await User.find();
-        res.json
+        res.json(getUser)
     } catch (error) {
         throw new Error(error);
     }
