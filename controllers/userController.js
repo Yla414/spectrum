@@ -53,7 +53,7 @@ const getOneUser = asyncHandler(async(req, res) => {
     try {
         const getUser = await User.findById(id);
         res.json({
-            g,
+            getUser,
         })
     } catch (error) {
         throw new Error(error);
