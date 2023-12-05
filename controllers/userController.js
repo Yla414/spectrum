@@ -17,7 +17,9 @@ const createUser = asyncHandler(
     }
 );
 
-const loginUserControl = asyncHandler(async(req, res) => {})
+const loginUserControl = asyncHandler(async(req, res) => {
+    const
+})
 
 
 
