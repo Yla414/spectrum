@@ -25,7 +25,7 @@ const isAdmin = asyncHandler(async(req, res, next) => {
     const { email } = req.user;
     const adminUser = await User.findOne({ email });
 
-    if(a)
+    if(admi)
 })
 
 module.exports = { authMiddleware, isAdmin };
