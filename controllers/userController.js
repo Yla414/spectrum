@@ -23,7 +23,9 @@ const loginUserControl = asyncHandler(async(req, res) => {
     const findUser = await User.findOne({ email });
     if(findUser && await findUser.isPasswordMatched(password)) {
 
-    } else {}
+    } else {
+        throw new 
+    }
 })
 
 
