@@ -1,5 +1,5 @@
 const User = require('../models/userModel');
-const asynH
+const asynHandler = require
 
 const createUser = async (req, res) => {
     // Check for existing user
