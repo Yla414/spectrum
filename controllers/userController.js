@@ -8,6 +8,8 @@ const createUser = async (req, res) => {
 
     if(!user) {
         // Create a new user
+
+    } else {
         
     }
 }
