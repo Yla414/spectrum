@@ -18,7 +18,7 @@ const createUser = asyncHandler(
 );
 
 const loginUserControl = asyncHandler(async(req, res) => {
-    const { email, pas }
+    const { email, password }
 })
 
 
