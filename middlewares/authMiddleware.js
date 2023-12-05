@@ -23,7 +23,7 @@ const authMiddleware = asyncHandler(async(req, res, next) => {
 
 const isAdmin = asyncHandler(async(req, res, next) => {
     const { email } = req.user;
-    const admin = 
+    const admin = us
 })
 
 module.exports = { authMiddleware, isAdmin };
