@@ -1,11 +1,11 @@
 const express = require('express');
 const router = express.Router();
-const { createUser } = require('../controllers')
+const { createUser } = require('../controllers/userController');
 
 // Setup routes===========
 
 // Registration route
-router.post('/register');
+router.post('/register', );
 
 
 module.exports = router;
