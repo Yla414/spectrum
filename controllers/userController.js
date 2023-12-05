@@ -42,7 +42,7 @@ const getAllUsers = asyncHandler (async(req, res) => {
     try {
 
     } catch (error) {
-        
+        throw 
     }
 })
 
