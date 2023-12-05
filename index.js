@@ -12,7 +12,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 // Connect database
 dbConnect();
-app.use(body)
+app.use(bodyPar)
 app.use('/api/user', authRoutes);
 
 // Start server
