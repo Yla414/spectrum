@@ -38,7 +38,7 @@ const loginUserControl = asyncHandler(async(req, res) => {
 
 // Update  user
 const updateUser = asyncHandler(async(req, res) => {
-    const {id} = req.params;
+    const {id} = req.;
     try {
         const updatedUser = await User.findByIdAndUpdate(id, {
             firstname: req?.body.firstname,
@@ -93,4 +93,4 @@ const deleteUser = asyncHandler(async(req, res) => {
 
 
 
-module.exports = { createUser, loginUserControl, getAllUsers, getOneUser, deleteUser, };
+module.exports = { createUser, loginUserControl, getAllUsers, getOneUser, deleteUser, updateUser };
