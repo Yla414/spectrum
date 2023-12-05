@@ -14,7 +14,9 @@ const createUser = async (req, res) => {
         // User alreadyexists
         res.json({
             message: 'User already exists',
-            success
+            success: false,
         })
     }
 }
+
+modu
