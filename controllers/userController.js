@@ -40,8 +40,8 @@ const loginUserControl = asyncHandler(async(req, res) => {
 const updateUser = asyncHandler(async(req, res) => {
     const {id} = req.params;
     try {
-        
-    }
+
+    } catch (e)
 })
 
 
