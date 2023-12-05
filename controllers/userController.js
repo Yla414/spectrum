@@ -40,7 +40,7 @@ const loginUserControl = asyncHandler(async(req, res) => {
 const updateUser = asyncHandler(async(req, res) => {
     const {id} = req.params;
     try {
-        const update
+        const updateUser = 
     } catch (error) {
         throw new Error(error);
     }
