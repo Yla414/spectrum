@@ -33,7 +33,7 @@ var userSchema = new mongoose.Schema({
         type: Array,
         default: [],
     },
-    address: { type: S }
+    address: { type: String }
 });
 
 userSchema.pre('save', async function(next) {
