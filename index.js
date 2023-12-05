@@ -1,7 +1,7 @@
 const express = require('express');
 // Dotenv for env variables
 const dotenv = require('dotenv').config();
-const bobdyParser = require('body-')
+const bobdyParser = require('body-parser');
 const dbConnect = require('./config/dbConnect');
 const authRoutes = require('./routes/authRoute');
 
