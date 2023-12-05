@@ -33,9 +33,7 @@ var userSchema = new mongoose.Schema({
         type: Array,
         default: [],
     },
-    address: {
-        ty
-    }
+    address: {}
 });
 
 userSchema.pre('save', async function(next) {
