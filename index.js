@@ -21,6 +21,7 @@ app.use('/api/user', authRoutes);
 
 // Pass middlewares
 app.use(notFound);
+app
 
 // Start server
 app.listen(PORT, () => {
