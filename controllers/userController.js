@@ -64,7 +64,7 @@ const getOneUser = asyncHandler(async(req, res) => {
 const deleteUser = asyncHandler(async(req, res) => {
     const {id} = req.params;
     try {
-        const deleteOneUser = await User.findById(id);
+        const deleteOneUser = await User.findByIdAndDel(id);
         res.json({
             deleteOneUser,
         })
