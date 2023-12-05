@@ -1,1 +1,1 @@
-const jw
+const jwt 
