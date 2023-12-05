@@ -10,7 +10,7 @@ router.post('/register', createUser);
 router.post('/login', loginUserControl);
 // Ftech all users
 router.get('/all-users', getAllUsers);
-// Fe
+// Fetch a 
 router.get('/:id', getOneUser)
 
 
