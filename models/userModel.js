@@ -42,7 +42,7 @@ var userSchema = new mongoose.Schema({
         type: ObjectId,
         ref: 'Product'
     },
-    timestamps: true,
+    timestamp
 });
 
 userSchema.pre('save', async function(next) {
