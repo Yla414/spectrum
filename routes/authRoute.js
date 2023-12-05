@@ -3,4 +3,4 @@ const router = express.Router();
 
 // Setup routes===========
 
-// Registration r
+// Registration route
