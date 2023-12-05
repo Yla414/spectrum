@@ -4,7 +4,7 @@ const dotenv = require('dotenv').config();
 const bodyParser = require('body-parser');
 const dbConnect = require('./config/dbConnect');
 const authRoutes = require('./routes/authRoute');
-const { er }
+const { error }
 
 // Initialize express app
 const app = express();
