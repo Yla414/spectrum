@@ -12,7 +12,7 @@ const createUser = asyncHandler(
             const newUser = await User.create(req.body);
             res.json(newUser);
         } else {
-th
+            throw
         };
     }
 )
