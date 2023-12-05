@@ -10,7 +10,7 @@ router.post('/register', createUser);
 router.post('/login', loginUserControl);
 // Ftech all users
 router.get('/all-users', getAllUsers);
-// Fetch a single 
+// Fetch a single user
 router.get('/:id', getOneUser)
 
 
