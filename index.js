@@ -16,6 +16,7 @@ dbConnect();
 // Body-parser
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
+
 app.use('/api/user', authRoutes);
 
 // Start server
