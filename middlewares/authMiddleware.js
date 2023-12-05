@@ -9,7 +9,7 @@ const authMiddleware = asyncHandler(async(req, res, next) => {
         try {
 
         } catch (error) {
-            throw new Error('Not authorized. Pleas ')
+            throw new Error('Not authorized. Plea')
         }
     } else {
         throw new Error('No token attached to header')
