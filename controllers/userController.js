@@ -49,7 +49,7 @@ const getAllUsers = asyncHandler (async(req, res) => {
 
 // Fetch a single user
 const getOneUser = asyncHandler(async(req, res) => {
-    const (id) = req.params
+    const {id} = req.params;
 })
 
 
