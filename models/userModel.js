@@ -31,8 +31,9 @@ var userSchema = new mongoose.Schema({
     },
     cart: {
         type: Array,
-        default: [],,
-    }
+        default: [],
+    },
+    add
 });
 
 userSchema.pre('save', async function(next) {
