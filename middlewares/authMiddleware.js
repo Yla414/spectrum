@@ -21,6 +21,6 @@ const authMiddleware = asyncHandler(async(req, res, next) => {
     }
 });
 
-const isAdmin
+const isAdmin = a
 
 module.exports = { authMiddleware };
