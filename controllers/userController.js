@@ -16,7 +16,7 @@ const createUser = async (req, res) => {
             message: 'User already exists',
             success: false,
         })
-    }
+    };
 };
 
 module.exports = { createUser };
