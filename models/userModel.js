@@ -34,10 +34,10 @@ var userSchema = new mongoose.Schema({
         type: Array,
         default: [],
     },
-    address:{ {
+    address: {
         type: ObjectId,
         ref: 'Address'
-    }},
+    },
     wishlist: {
         type: ObjectId,
         ref: 'Product'
