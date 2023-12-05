@@ -5,4 +5,4 @@ const notFound = (req, res, next) => {
     next(error);
 };
 
-// Error handler for AP
+// Error handler for API
