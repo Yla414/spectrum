@@ -12,7 +12,7 @@ router.post('/login', loginUserControl);
 router.get('/all-users', getAllUsers);
 // Fetch a single user
 router.get('/:id', getOneUser)
-// dele a single user
+// delete a single user
 router.delete('/:id', getOneUser)
 
 
