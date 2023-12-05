@@ -7,9 +7,9 @@ const authMiddleware = asyncHandler(async(req, res, next) => {
     if(req?.headers?.authorization?.startsWith('Bearer')) {
         token = req.headers.authorization.split(' ')[1];
         try {
-
+            if
         } catch (error) {
-            throw new Error('Not authorized. Please log')
+            throw new Error('Not authorized. Please login again...!')
         }
     } else {
         throw new Error('No token attached to header')
