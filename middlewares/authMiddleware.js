@@ -19,4 +19,4 @@ const authMiddleware = asyncHandler(async(req, res, next) => {
     }
 });
 
-module.epxo
+module.epxorts = 
