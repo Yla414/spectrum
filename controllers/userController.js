@@ -22,9 +22,9 @@ const loginUserControl = asyncHandler(async(req, res) => {
     // Find if the user is registered
     const findUser = await User.findOne({ email });
     if(findUser && await findUser.isPasswordMatched(password)) {
-
+        
     } else {
-        throw new Error('Invalid ')
+        throw new Error('Invalid credentials...!')
     }
 })
 
