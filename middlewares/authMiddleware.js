@@ -1,1 +1,1 @@
-const User = require()
+const User = require('../')
