@@ -18,7 +18,7 @@ const createUser = asyncHandler(
                 success: false,
             })
         };
-    };
+    }
 )
 
 module.exports = { createUser };
