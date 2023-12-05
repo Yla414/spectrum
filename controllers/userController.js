@@ -47,7 +47,8 @@ const getAllUsers = asyncHandler (async(req, res) => {
     }
 });
 
-// Ftec
+// Fetch a single user
+const getA
 
 
 
