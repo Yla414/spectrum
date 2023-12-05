@@ -17,7 +17,7 @@ const createUser = asyncHandler(
     }
 );
 
-const loginUserC
+const loginUserContro
 
 
 
