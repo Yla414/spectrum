@@ -1,3 +1,3 @@
 const dbConnect = () => {
-    const conn = 
+    const conn = mongoose
 }
