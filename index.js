@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3001;
 // Connect database
 dbConnect();
 // Body-parser
-app.use(bodyParse)
+app.use(bodyParse.jso)
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use('/api/user', authRoutes);
 
