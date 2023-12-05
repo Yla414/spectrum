@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
 
 const generateToken = (id) => {
-    return jwt.sign(id, pr)
+    return jwt.sign(id, process.env)
 }
