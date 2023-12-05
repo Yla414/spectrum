@@ -8,7 +8,7 @@ const authMiddleware = asyncHandler(async(req, res, next) => {
         token = req.headers.authorization.split(' ')[1];
         try {
             if(token) {
-                const decoded = jwt.verify(token, process.en)
+                const decoded = jwt.verify(token, process.env.)
             }
         } catch (error) {
             throw new Error('Not authorized. Please login again...!')
