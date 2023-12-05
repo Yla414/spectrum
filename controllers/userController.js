@@ -52,7 +52,9 @@ const getOneUser = asyncHandler(async(req, res) => {
     const {id} = req.params;
     try {
         const getUser = await User.findById(id);
-        re
+        res.json({
+            
+        })
     } catch (error) {
         throw new Error(error);
     }
