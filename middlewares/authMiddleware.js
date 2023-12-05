@@ -25,7 +25,9 @@ const isAdmin = asyncHandler(async(req, res, next) => {
     const { email } = req.user;
     const adminUser = await User.findOne({ email });
 
-    if(adminUser.role !== "admin") 
+    if(adminUser.role !== "admin") {
+        
+    }
 })
 
 module.exports = { authMiddleware, isAdmin };
