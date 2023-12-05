@@ -1,6 +1,6 @@
 const { default: mongoose } = require("mongoose")
 
-const ur
+const uri = p
 
 const dbConnect = () => {
     const conn = mongoose.connect()
