@@ -19,7 +19,6 @@ const createUser = asyncHandler(
 
 const loginUserControl = asyncHandler(async(req, res) => {
     const { email, password } = req.body;
-    console.log(email, password)
 })
 
 
