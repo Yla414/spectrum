@@ -12,6 +12,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 // Connect database
 dbConnect();
+
 // Body-parser
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
