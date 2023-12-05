@@ -5,4 +5,4 @@ const notFound = (req, res, next) => {
     next(error);
 };
 
-// E
+// Error hand
