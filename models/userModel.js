@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 // Declare the Schema of the Mongo model
 var userSchema = new mongoose.Schema({
-    firname:{
+    firstname:{
         type:String,
         required:true,
         unique:true,
