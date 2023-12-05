@@ -1,5 +1,5 @@
 const User = require('../models/userModel');
-const asynHandler = require('express-async-handler')
+const asynHandler = require('express-async-handler');
 
 const createUser = async (req, res) => {
     // Check for existing user
