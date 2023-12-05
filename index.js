@@ -18,7 +18,7 @@ dbConnect();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-// Set up route
+// Set up routers
 app.use('/api/user', authRoutes);
 
 // Pass middlewares
