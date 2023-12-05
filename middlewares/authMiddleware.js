@@ -8,7 +8,9 @@ const authMiddleware = asyncHandler(async(req, res, next) => {
         token = req.headers.authorization.split(' ')[1];
         try {
 
-        } catch (error) 
+        } catch (error) {
+            
+        }
     } else {
         throw new Error('No token provided')
     }
