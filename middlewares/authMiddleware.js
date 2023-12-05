@@ -1,2 +1,2 @@
 const User = require('../models/userModel');
-const jwt = require('jso')
+const jwt = require('jsonwebtoken')
