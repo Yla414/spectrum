@@ -26,7 +26,7 @@ var userSchema = new mongoose.Schema({
         required:true,
     },
     isAdmin: {
-        type: String
+        type: String,
     }
 });
 
