@@ -27,6 +27,7 @@ var userSchema = new mongoose.Schema({
     },
     isAdmin: {
         type: String,
+        def
     }
 });
 
