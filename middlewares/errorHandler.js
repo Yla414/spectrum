@@ -1,2 +1,2 @@
 // Not found
-const notFound = ()
+const notFound = (r)
