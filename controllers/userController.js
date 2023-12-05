@@ -44,7 +44,7 @@ const updateUser = asyncHandler(async(req, res) => {
             firstname: req.body.firstname,
             lastname: req.body.lastname,
             email: req.body.email,
-            mobile: req.body.mo
+            mobile: req.body.mobile
         })
     } catch (error) {
         throw new Error(error);
