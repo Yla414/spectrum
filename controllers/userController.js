@@ -9,7 +9,7 @@ const createUser = async (req, res) => {
     if(!user) {
         // Create a new user
         const newUser = User.create(req.body);
-        res.json()
+        res.json(n)
     } else {
         // User alreadyexists
     }
