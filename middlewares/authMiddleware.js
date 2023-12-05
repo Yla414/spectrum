@@ -9,7 +9,7 @@ const authMiddleware = asyncHandler(async(req, res, next) => {
         try {
 
         } catch (error) {
-            throw new Error('No')
+            throw new Error('Not au')
         }
     } else {
         throw new Error('No token provided')
