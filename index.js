@@ -1,6 +1,6 @@
 const express = require('express');
-const dotenv = require('dotenv').config();
 // Dotenv for env variables
+const dotenv = require('dotenv').config();
 const dbConnect = require('./config/dbConnect');
 
 // Initialize express app
