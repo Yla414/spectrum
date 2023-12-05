@@ -37,7 +37,7 @@ const loginUserControl = asyncHandler(async(req, res) => {
 });
 
 // Update  user
-const updatedUser = asyncHandler(async(req, res) => {
+const updateUser = asyncHandler(async(req, res) => {
     const {id} = req.params;
     try {
         const updateUser = await User.findByIdAndUpdate(id, {
@@ -48,7 +48,7 @@ const updatedUser = asyncHandler(async(req, res) => {
         }, {
             new: true
         });
-        res.json(updateUser)
+        res.json(updatedUser)
     } catch (error) {
         throw new Error(error);
     }
