@@ -7,6 +7,6 @@ const authMiddleware = asyncHandler(async(req, res, next) => {
     if(req?.headers?.authorization?.startsWith{'Bearer'}) {
         
     } else {
-        throw new Error('No token p')
+        throw new Error('No token prov')
     }
 })
