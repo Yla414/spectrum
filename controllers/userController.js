@@ -17,6 +17,6 @@ const createUser = async (req, res) => {
             success: false,
         })
     }
-}
+};
 
-module.exports = { createUser }
+module.exports = { createUser };
