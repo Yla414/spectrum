@@ -13,7 +13,7 @@ router.get('/all-users', getAllUsers);
 // Fetch a single user
 router.get('/:id', getOneUser)
 // delete a single user
-router.delete('/:id', getOneUser)
+router.delete('/:id', deleteOneUser);
 
 
 module.exports = router;
