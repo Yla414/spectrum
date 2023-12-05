@@ -32,7 +32,7 @@ userSchema.pre('save', async function(next) {
     this.password = await bcrypt.hash(this.password, salt);
 });
 
-userSchema.methods.isPas
+userSchema.methods.isPasswor
 
 
 //Export the model
