@@ -19,4 +19,4 @@ const createUser = async (req, res) => {
     }
 }
 
-module.
+module.exports = {  }
