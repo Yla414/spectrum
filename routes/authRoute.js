@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const { createUser, loginUserControl, getAllUsers, getOneUser, deleteUser, updateUser } = require('../controllers/userController');
 
+
 //============= Setup routes=========== //
 
 // Registration route
@@ -15,7 +16,7 @@ router.get('/:id', getOneUser)
 // delete a single user
 router.delete('/:id', deleteUser);
 // Update a user
-router.put('/:id', )
+router.put('/:id', updateUser)
 
 
 module.exports = router;
