@@ -36,7 +36,11 @@ var userSchema = new mongoose.Schema({
     },
     address: {
         type: ObjectId,
-        ref: 'Addre'
+        ref: 'Address'
+    },
+    address: {
+        type: ObjectId,
+        ref: 'Address'
     },
     timestamps: true,
 });
