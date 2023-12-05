@@ -1,2 +1,2 @@
 const User = require('../models/userModel');
-const jwt
+const jwt = require('jso')
