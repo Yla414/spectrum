@@ -1,1 +1,1 @@
-const U
+const UserModel = require('.')
