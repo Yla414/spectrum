@@ -15,6 +15,6 @@ const createUser = asyncHandler(
             throw new Error('User already exists...!');
         };
     }
-)
+);
 
 module.exports = { createUser };
