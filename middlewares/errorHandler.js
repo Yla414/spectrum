@@ -1,2 +1,2 @@
 // Not found
-const notFound = (req,)
+const notFound = (req, res)
