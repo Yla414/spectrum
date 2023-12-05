@@ -48,7 +48,7 @@ const updateUser = asyncHandler(async(req, res) => {
         }, {
             new: true
         });
-        res.json()
+        res.json({})
     } catch (error) {
         throw new Error(error);
     }
