@@ -34,16 +34,16 @@ var userSchema = new mongoose.Schema({
         type: Array,
         default: [],
     },
-    address: {
+    address:{ {
         type: ObjectId,
         ref: 'Address'
-    },
+    }},
     wishlist: {
         type: ObjectId,
         ref: 'Product'
     },
 }, {
-    timestamps: true
+    timestamps: true,
 });
 
 userSchema.pre('save', async function(next) {
