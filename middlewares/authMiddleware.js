@@ -6,5 +6,7 @@ const authMiddleware = asyncHandler(async(req, res, next) => {
     let token;
     if(req?.headers?.authorization?.startsWith{'Bearer'}) {
         
-    } e
+    } else {
+        
+    }
 })
