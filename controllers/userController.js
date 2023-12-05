@@ -8,7 +8,8 @@ const createUser = async (req, res) => {
 
     if(!user) {
         // Create a new user
-        const newUser = User.create(req.body)
+        const newUser = User.create(req.body);
+        r
     } else {
         // User alreadyexists
     }
