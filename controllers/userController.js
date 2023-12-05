@@ -40,7 +40,7 @@ const loginUserControl = asyncHandler(async(req, res) => {
 // Fetch all users
 const getAllUsers = asyncHandler (async(req, res) => {
     try {
-        const getUs
+        const getUsers = await User
     } catch (error) {
         throw new Error(error);
     }
