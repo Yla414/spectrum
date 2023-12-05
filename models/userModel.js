@@ -34,7 +34,7 @@ var userSchema = new mongoose.Schema({
         default: [],
     },
     address: { type: ObjectId, ref: "Address" },
-    wishlist: {  }
+    wishlist: { t }
 });
 
 userSchema.pre('save', async function(next) {
