@@ -10,6 +10,6 @@ const createUser = async (req, res) => {
         // Create a new user
 
     } else {
-        // U
+        // User already
     }
 }
