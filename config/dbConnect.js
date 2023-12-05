@@ -6,7 +6,7 @@ const dbConnect = () => {
     try {
         
     } catch (error) {
-        console.log('Databse e');
+        console.log('Databse error');
         throw new Error(error);
     }
 }
