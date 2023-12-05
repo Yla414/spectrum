@@ -7,6 +7,6 @@ const createUser = async (req, res) => {
     const findUser = await User.findOne(email);
 
     if(!user) {
-        // Create
+        // Create a ne
     }
 }
