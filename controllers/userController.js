@@ -93,4 +93,4 @@ const deleteUser = asyncHandler(async(req, res) => {
 
 
 
-module.exports = { createUser, loginUserControl, getAllUsers, getOneUser, deleteUser };
+module.exports = { createUser, loginUserControl, getAllUsers, getOneUser, deleteUser, };
