@@ -1,6 +1,6 @@
 const express = require('express');
 const dotenv = require('dotenv').config();
-const dbConnect
+const dbConnect =
 
 const app = express();
 
