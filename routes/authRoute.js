@@ -5,7 +5,7 @@ const { createUser } = require('../controllers/userController');
 // Setup routes===========
 
 // Registration route
-router.post('/register', createUs);
+router.post('/register', createUser);
 
 
 module.exports = router;
