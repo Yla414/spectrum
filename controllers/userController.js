@@ -42,7 +42,7 @@ const updateUser = asyncHandler(async(req, res) => {
     try {
 
     } catch (error) {
-        th
+        throw new
     }
 })
 
