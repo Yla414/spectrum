@@ -6,6 +6,7 @@ const dbConnect = () => {
     try {
         
     } catch (error) {
+        
         throw new Error(error);
     }
 }
