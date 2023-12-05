@@ -51,7 +51,8 @@ const getAllUsers = asyncHandler (async(req, res) => {
 const getOneUser = asyncHandler(async(req, res) => {
     const {id} = req.params;
     try {
-        const getUser = 
+        const getUser = await User.findById(id);
+        
     } catch (error) {
         throw new Error(error);
     }
