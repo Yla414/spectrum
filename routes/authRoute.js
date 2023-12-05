@@ -12,11 +12,11 @@ router.post('/login', loginUserControl);
 // Ftech all users
 router.get('/all-users', getAllUsers);
 // Fetch a single user
-router.get('/:id', authMiddleware,  getOneUser);
+router.get('/:id', authMiddleware, isAdmin, getOneUser);
 // delete a single user
 router.delete('/:id', deleteUser);
 // Update a user
-router.put('/:id', updateUser);
+router.put('/', updateUser);
 
 
 module.exports = router;
