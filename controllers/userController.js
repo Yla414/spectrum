@@ -55,4 +55,4 @@ const getOneUser = asyncHandler(async(req, res) => {
 
 
 
-module.exports = { createUser, loginUserControl, getAllUsers get };
+module.exports = { createUser, loginUserControl, getAllUsers  };
