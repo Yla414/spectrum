@@ -1,3 +1,3 @@
 const User = require('../models/userModel');
 const jwt = require('jsonwebtoken');
-const asyncHandler = require('express-as')
+const asyncHandler = require('express-async-hanler')
