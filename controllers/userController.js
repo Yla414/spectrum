@@ -48,6 +48,7 @@ const updateUser = asyncHandler(async(req, res) => {
         }, {
             new: true
         });
+        res
     } catch (error) {
         throw new Error(error);
     }
