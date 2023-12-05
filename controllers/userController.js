@@ -48,7 +48,7 @@ const getAllUsers = asyncHandler (async(req, res) => {
 });
 
 // Fetch a single user
-const getOneUs
+const getOneUser = asyncH
 
 
 
