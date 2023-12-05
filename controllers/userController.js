@@ -36,6 +36,8 @@ const loginUserControl = asyncHandler(async(req, res) => {
     }
 });
 
+// U
+
 
 // Fetch all users
 const getAllUsers = asyncHandler (async(req, res) => {
