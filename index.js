@@ -1,3 +1,3 @@
 const express = require('express');
-const dotenv = require('dot')
+const dotenv = require('dote')
 const app = express();
