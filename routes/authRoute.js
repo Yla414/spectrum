@@ -16,7 +16,7 @@ router.get('/:id', authMiddleware, getOneUser);
 // delete a single user
 router.delete('/:id', deleteUser);
 // Update a user
-router.put('/:id', updateUser)
+router.put('/:id', updateUser);
 
 
 module.exports = router;
