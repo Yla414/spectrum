@@ -1,5 +1,5 @@
 const { default: mongoose } = require("mongoose")
 
 const dbConnect = () => {
-    const conn = mongoose.
+    const conn = mongoose.conne
 }
