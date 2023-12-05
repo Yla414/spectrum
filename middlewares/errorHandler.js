@@ -8,5 +8,5 @@ const notFound = (req, res, next) => {
 // Error handler for APIs
 const errorHandler = (err, req, res, next) => {
     const statusCode = res.statusCode == 200 ? 500 : res.statusCode;
-    res.status(stat)
+    res.status(statusCo)
 }
