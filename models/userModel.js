@@ -27,7 +27,9 @@ var userSchema = new mongoose.Schema({
     },
 });
 
-userSchema.pre('save', async function(next) {})
+userSchema.pre('save', async function(next) {
+    c
+})
 
 
 //Export the model
