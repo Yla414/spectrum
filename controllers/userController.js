@@ -6,10 +6,10 @@ const createUser = async (req, res) => {
     const email = req.body.email;
     const findUser = await User.findOne(email);
 
-    if(!user) {
+    if(!findUser) {
         // Create a new user
         const newUser = User.create(req.body);
-        res.json(newUser)
+        res.json(newUser);
     } else {
         // User alreadyexists
         res.json({
