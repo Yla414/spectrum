@@ -19,7 +19,7 @@ const createUser = asyncHandler(
 
 const loginUserControl = asyncHandler(async(req, res) => {
     const { email, password } = req.body;
-    // Find 
+    // Find if the us
 })
 
 
