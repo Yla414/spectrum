@@ -10,4 +10,6 @@ const dbConnect = () => {
         console.log('Databse error');
         throw new Error(error);
     }
-}
+};
+
+mod
