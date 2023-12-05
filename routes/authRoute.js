@@ -14,7 +14,7 @@ router.get('/all-users', getAllUsers);
 router.get('/:id', getOneUser)
 // delete a single user
 router.delete('/:id', deleteUser);
-// U
+// Updat
 
 
 module.exports = router;
