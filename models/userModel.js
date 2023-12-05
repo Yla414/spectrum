@@ -38,9 +38,9 @@ var userSchema = new mongoose.Schema({
         type: ObjectId,
         ref: 'Address'
     },
-    address: {
+    wi: {
         type: ObjectId,
-        ref: 'P'
+        ref: 'Product'
     },
     timestamps: true,
 });
