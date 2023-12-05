@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use('/api/user', authRoutes);
 
 // Pass middlewares
-app.use(not)
+app.use(notFo)
 
 // Start server
 app.listen(PORT, () => {
