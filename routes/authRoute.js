@@ -4,4 +4,4 @@ const router = express.Router();
 // Setup routes===========
 
 // Registration route
-router.post('/register')
+router.post('/register');
