@@ -34,7 +34,7 @@ const loginUserControl = asyncHandler(async(req, res) => {
     } else {
         throw new Error('Invalid credentials...!')
     }
-})
+});
 
 
 
