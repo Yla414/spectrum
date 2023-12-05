@@ -9,7 +9,6 @@ var userSchema = new mongoose.Schema({
     lastname:{
         type:String,
         required:true,
-        unique:true,
     },
     email:{
         type:String,
@@ -26,6 +25,7 @@ var userSchema = new mongoose.Schema({
         required:true,
     },
 });
+
 
 //Export the model
 module.exports = mongoose.model('User', userSchema);
