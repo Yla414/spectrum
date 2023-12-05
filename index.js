@@ -12,7 +12,8 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 // Connect database
 dbConnect();
-// Body-par
+// Body-parser
+
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use('/api/user', authRoutes);
 
