@@ -2,7 +2,7 @@ const express = require('express');
 // Dotenv for env variables
 const dotenv = require('dotenv').config();
 const dbConnect = require('./config/dbConnect');
-const authRoutes = require('./routes/authRoute')
+const authRoutes = require('./routes/authRoute');
 
 // Initialize express app
 const app = express();
@@ -16,7 +16,7 @@ app.use('/', (req, res) => {
     res.send('Hello from the server side!')
 })
 
-app.use('/api/user')
+app.use('/api/user', )
 
 // Start server
 app.listen(PORT, () => {
