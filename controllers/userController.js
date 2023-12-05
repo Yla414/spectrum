@@ -46,7 +46,9 @@ const updateUser = asyncHandler(async(req, res) => {
             email: req?.body.email,
             mobile: req?.body.mobile
         },
-        {}
+        {
+            new
+        }
         )
     } catch (error) {
         throw new Error(error);
