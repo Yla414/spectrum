@@ -35,8 +35,8 @@ var userSchema = new mongoose.Schema({
         default: [],
     },
     address: {
-        type: ObjectId,
-        ref: 'AA'
+        {type: ObjectId,
+        ref: 'Address'}
     }
 });
 
