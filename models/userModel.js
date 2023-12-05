@@ -33,7 +33,7 @@ userSchema.pre('save', async function(next) {
 });
 
 userSchema.methods.isPasswordMatched = async function (enteredPassword) {
-    return 
+    return await 
 }
 
 
