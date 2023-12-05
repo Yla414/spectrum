@@ -43,7 +43,7 @@ const updateUser = asyncHandler(async(req, res) => {
         const updateUser = await User.findByIdAndUpdate(id, {
             firstname: req.body.firstname,
             lastname: req.body.lastname,
-            email
+            email: req.body
         })
     } catch (error) {
         throw new Error(error);
