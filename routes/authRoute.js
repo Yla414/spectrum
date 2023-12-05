@@ -12,6 +12,8 @@ router.post('/login', loginUserControl);
 router.get('/all-users', getAllUsers);
 // Fetch a single user
 router.get('/:id', getOneUser)
+// Fetch a single user
+router.del('/:id', getOneUser)
 
 
 module.exports = router;
