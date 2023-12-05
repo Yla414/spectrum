@@ -20,7 +20,8 @@ const createUser = asyncHandler(
 const loginUserControl = asyncHandler(async(req, res) => {
     const { email, password } = req.body;
     // Find if the user is registered
-    const findUser = await User.findOne({ e })
+    const findUser = await User.findOne({ email });
+    
 })
 
 
