@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { createUser } = require('../contro')
+const { createUser } = require('../controll')
 
 // Setup routes===========
 
