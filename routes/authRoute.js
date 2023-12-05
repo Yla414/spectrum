@@ -8,7 +8,8 @@ const { createUser, loginUserControl } = require('../controllers/userController'
 router.post('/register', createUser);
 // Login route
 router.post('/login', loginUserControl);
-// Ftech all user
+// Ftech all users
+
 
 
 module.exports = router;
