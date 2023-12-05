@@ -1,4 +1,4 @@
 // Not found
 const notFound = (req, res, next) => {
-    const error = new Error(`Not found : ${re} `)
+    const error = new Error(`Not found : ${req.or} `)
 }
