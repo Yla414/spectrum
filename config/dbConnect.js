@@ -12,4 +12,4 @@ const dbConnect = () => {
     }
 };
 
-mod
+module.exports = dbConnect
