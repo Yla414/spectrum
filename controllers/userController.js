@@ -47,7 +47,7 @@ const updateUser = asyncHandler(async(req, res) => {
             mobile: req?.body.mobile
         }, {
             new: true
-        })
+        });
     } catch (error) {
         throw new Error(error);
     }
