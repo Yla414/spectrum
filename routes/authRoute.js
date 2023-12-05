@@ -6,7 +6,7 @@ const { createUser, loginUserControl } = require('../controllers/userController'
 
 // Registration route
 router.post('/register', createUser);
-// 
+// L
 router.post('/login', loginUserControl);
 
 
