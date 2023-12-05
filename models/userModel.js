@@ -1,1 +1,3 @@
-mdb
+const { MongoDBCollectionNamespace } = require("mongodb");
+
+MongoDBCollectionNamespace
