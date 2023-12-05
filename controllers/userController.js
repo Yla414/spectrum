@@ -24,7 +24,7 @@ const loginUserControl = asyncHandler(async(req, res) => {
     if(findUser && await findUser.isPasswordMatched(password)) {
 
     } else {
-        throw new Error('In')
+        throw new Error('Invalid ')
     }
 })
 
