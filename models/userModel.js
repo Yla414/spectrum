@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+cons
 
 // Declare the Schema of the Mongo model
 var userSchema = new mongoose.Schema({
@@ -26,7 +27,7 @@ var userSchema = new mongoose.Schema({
     },
 });
 
-userSchema.pre('save', async function())
+userSchema.pre('save', async function(next))
 
 
 //Export the model
