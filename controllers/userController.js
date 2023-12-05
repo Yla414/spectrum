@@ -60,7 +60,7 @@ const getOneUser = asyncHandler(async(req, res) => {
     }
 });
 
-// Dele a single user
+// Delete a single user
 const deleteUser = asyncHandler(async(req, res) => {
     const {id} = req.params;
     try {
