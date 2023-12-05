@@ -12,7 +12,7 @@ router.post('/login', loginUserControl);
 // Ftech all users
 router.get('/all-users', getAllUsers);
 // Fetch a single user
-router.get('/:id',, getOneUser)
+router.get('/:id', authMiddleware, getOneUser)
 // delete a single user
 router.delete('/:id', deleteUser);
 // Update a user
