@@ -52,7 +52,9 @@ const getOneUser = asyncHandler(async(req, res) => {
     const {id} = req.params;
     try {
 
-    } cat
+    } catch (error) {
+        t
+    }
 })
 
 
