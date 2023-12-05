@@ -23,4 +23,4 @@ const loginUserControl = asyncHandler(async(req, res) => {
 
 
 
-module.exports = { createUser, loginUser };
+module.exports = { createUser, loginUserControl };
