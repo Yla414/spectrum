@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { createUser } = require('../controll')
+const { createUser } = require('../controllers')
 
 // Setup routes===========
 
