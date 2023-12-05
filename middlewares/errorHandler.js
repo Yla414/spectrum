@@ -6,3 +6,4 @@ const notFound = (req, res, next) => {
 };
 
 // Error handler for APIs
+const
