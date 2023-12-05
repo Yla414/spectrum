@@ -4,7 +4,7 @@ const uri = process.env.MONGO_URI;
 
 const dbConnect = () => {
     try {
-        console.log('D')
+        console.log('Data')
     } catch (error) {
         console.log('Databse error');
         throw new Error(error);
