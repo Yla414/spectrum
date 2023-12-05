@@ -25,7 +25,7 @@ var userSchema = new mongoose.Schema({
         type:String,
         required:true,
     },
-    isAdmin: {
+    r: {
         type: String,
         default: 'user',
     }
