@@ -53,7 +53,7 @@ const getOneUser = asyncHandler(async(req, res) => {
     try {
 
     } catch (error) {
-        throw new Error(error)
+        throw new Error(error);
     }
 })
 
