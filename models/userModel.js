@@ -32,7 +32,7 @@ userSchema.pre('save', async function(next) {
     this.password = await bcrypt.hash(this.password, salt);
 });
 
-userSchema.methods.isPasswor
+userSchema.methods.isPasswordMatched = async functio
 
 
 //Export the model
