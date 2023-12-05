@@ -59,8 +59,9 @@ const getOneUser = asyncHandler(async(req, res) => {
         throw new Error(error);
     }
 });
+
 // Fetch a single user
-const getOneUser = asyncHandler(async(req, res) => {
+const d = asyncHandler(async(req, res) => {
     const {id} = req.params;
     try {
         const getUser = await User.findById(id);
