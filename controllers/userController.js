@@ -37,7 +37,7 @@ const loginUserControl = asyncHandler(async(req, res) => {
 });
 
 // Update  user
-const updateUser = asyn
+const updateUser = asyncHandl
 
 
 // Fetch all users
