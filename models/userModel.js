@@ -29,7 +29,9 @@ var userSchema = new mongoose.Schema({
         type: String,
         default: 'user',
     },
-    
+    cart: {
+        type
+    }
 });
 
 userSchema.pre('save', async function(next) {
