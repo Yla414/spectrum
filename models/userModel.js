@@ -42,7 +42,8 @@ var userSchema = new mongoose.Schema({
         type: ObjectId,
         ref: 'Product'
     },
-
+}, {
+    
 });
 
 userSchema.pre('save', async function(next) {
