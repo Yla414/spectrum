@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
+const { ObjectId } = require('mongodb');
 
 // Declare the Schema of the Mongo model
 var userSchema = new mongoose.Schema({
@@ -34,7 +35,7 @@ var userSchema = new mongoose.Schema({
         default: [],
     },
     address: {
-        type: Object
+        type: ObjectId,
     },
     timestamps: true,
 });
