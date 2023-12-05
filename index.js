@@ -1,6 +1,6 @@
 const express = require('express');
 // Dotenv for env variables
-const dotenv = require('dotenv').config();
+const dotenv = require('dotenv').config();c
 const dbConnect = require('./config/dbConnect');
 const authRoutes = require('./routes/authRoute');
 
