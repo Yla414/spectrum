@@ -4,5 +4,5 @@ const asyncHandler = require('express-async-handler');
 
 const authMiddleware = asyncHandler(async(req, res, next) => {
     let token;
-    if(req?.heade)
+    if(req?.headers?.)
 })
