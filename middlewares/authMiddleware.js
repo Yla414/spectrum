@@ -1,1 +1,1 @@
-const User = re
+const User = require
