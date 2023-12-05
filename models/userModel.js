@@ -25,7 +25,7 @@ var userSchema = new mongoose.Schema({
         type:String,
         required:true,
     },
-    isAdmin
+    isAdmin: {}
 });
 
 userSchema.pre('save', async function(next) {
