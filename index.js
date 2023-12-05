@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // Set up routers
 app.use('/api/user', authRoutes);
 
-// Pass middlewares afte
+// Pass middlewares after route
 app.use(notFound);
 app.use(errorHandler)
 
