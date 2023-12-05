@@ -38,7 +38,7 @@ const loginUserControl = asyncHandler(async(req, res) => {
 
 // Update  user
 const updateUser = asyncHandler(async(req, res) => {
-    const {_id} = req.user;
+    const {id} = req.user;
     try {
         const updatedUser = await User.findByIdAndUpdate(id, {
             firstname: req?.body.firstname,
