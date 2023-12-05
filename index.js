@@ -2,7 +2,7 @@ const express = require('express');
 const dotenv = require('dotenv').config();
 const dbConnect = require('./config/dbConnect');
 
-// Initialize express
+// Initialize express app
 const app = express();
 
 // Create port
