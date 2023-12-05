@@ -17,7 +17,7 @@ const createUser = asyncHandler(
     }
 );
 
-const loginUserControl = a
+const loginUserControl = asyncHandler()
 
 
 
