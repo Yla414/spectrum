@@ -41,7 +41,9 @@ const loginUserControl = asyncHandler(async(req, res) => {
 const getAllUsers = asyncHandler (async(req, res) => {
     try {
 
-    } catch (error) {}
+    } catch (error) {
+        
+    }
 })
 
 
