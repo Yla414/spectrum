@@ -40,7 +40,7 @@ var userSchema = new mongoose.Schema({
     },
     address: {
         type: ObjectId,
-        ref: 'Address'
+        ref: 'P'
     },
     timestamps: true,
 });
