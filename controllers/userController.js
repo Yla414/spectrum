@@ -25,7 +25,7 @@ const loginUserControl = asyncHandler(async(req, res) => {
         res.json({
             _id: findUser._id,
             firstname: findUser.firstname,
-            llastname: findUser.
+            llastname: findUser.last
         });
     } else {
         throw new Error('Invalid credentials...!')
