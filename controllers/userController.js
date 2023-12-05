@@ -49,4 +49,4 @@ const getAllUsers = asyncHandler (async(req, res) => {
 
 
 
-module.exports = { createUser, loginUserControl,  };
+module.exports = { createUser, loginUserControl,   };
