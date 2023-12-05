@@ -12,11 +12,8 @@ const PORT = process.env.PORT || 3001;
 // Connect database
 dbConnect();
 
-app.use('/', (req, res) => {
-    res.send('Hello from the server side!')
-})
 
-app.use('/api/user', authRou)
+app.use('/api/user', authRoutes);
 
 // Start server
 app.listen(PORT, () => {
