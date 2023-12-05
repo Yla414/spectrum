@@ -40,7 +40,7 @@ const loginUserControl = asyncHandler(async(req, res) => {
 const updateUser = asyncHandler(async(req, res) => {
     const {id} = req.params;
     try {
-        const updateUser = await User.findByIdAndUpdate(i)
+        const updateUser = await User.findByIdAndUpdate(id)
     } catch (error) {
         throw new Error(error);
     }
