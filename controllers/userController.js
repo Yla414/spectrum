@@ -21,7 +21,7 @@ const loginUserControl = asyncHandler(async(req, res) => {
     const { email, password } = req.body;
     // Find if the user is registered
     const findUser = await User.findOne({ email });
-    if(findUser && await findUser.isPasswordMatched) {}
+    if(findUser && await findUser.isPasswordMatched(password)) {}
 })
 
 
