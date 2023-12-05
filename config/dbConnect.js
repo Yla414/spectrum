@@ -1,7 +1,7 @@
 const { default: mongoose } = require("mongoose")
 
-const uri = process.env.MONGO_URI
+const uri = process.env.MONGO_URI;
 
 const dbConnect = () => {
-    const conn = mongoose.connect()
+    const conn = mongoose.connect(u)
 }
