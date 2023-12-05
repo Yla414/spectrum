@@ -12,11 +12,7 @@ const createUser = asyncHandler(
             const newUser = await User.create(req.body);
             res.json(newUser);
         } else {
-            // User alreadyexists
-            res.json({
-                message: 'User already exists',
-                success: false,
-            })
+
         };
     }
 )
