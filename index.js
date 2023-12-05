@@ -1,7 +1,7 @@
 const express = require('express');
 // Dotenv for env variables
 const dotenv = require('dotenv').config();
-const bodyParser = require('body-parser');
+const cors = require('body-parser');
 const dbConnect = require('./config/dbConnect');
 const authRoutes = require('./routes/authRoute');
 
@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3001;
 // Connect database
 dbConnect();
 // 
-app.use(c());
+app.use(cors());
 app.use('/api/user', authRoutes);
 
 // Start server
