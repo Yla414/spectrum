@@ -8,7 +8,7 @@ const authMiddleware = asyncHandler(async(req, res, next) => {
         token = req.headers.authorization.split(' ')[1];
         try {
             if(token) {
-                const decode
+                const decoded = 
             }
         } catch (error) {
             throw new Error('Not authorized. Please login again...!')
