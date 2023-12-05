@@ -24,7 +24,8 @@ const loginUserControl = asyncHandler(async(req, res) => {
     if(findUser && await findUser.isPasswordMatched(password)) {
         res.json({
             _id: findUser._id,
-            firstname:
+            firstname: findUser.firstname,
+            llastname: findUser.
         });
     } else {
         throw new Error('Invalid credentials...!')
