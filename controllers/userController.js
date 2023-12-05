@@ -38,7 +38,7 @@ const loginUserControl = asyncHandler(async(req, res) => {
 
 // Update  user
 const updateUser = asyncHandler(async(req, res) => {
-    cons
+    const {}
 })
 
 
