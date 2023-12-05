@@ -8,7 +8,7 @@ const createUser = async (req, res) => {
 
     if(!findUser) {
         // Create a new user if user does not exist
-        const newUser = aUser.create(req.body);
+        const newUser = awaUser.create(req.body);
         res.json(newUser);
     } else {
         // User alreadyexists
