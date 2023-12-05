@@ -38,8 +38,8 @@ const loginUserControl = asyncHandler(async(req, res) => {
 
 
 // Fetch all users
-const getAllUser = asyncHandler (async(req, res) => {
-    c
+const getAllUsers = asyncHandler (async(req, res) => {
+    co
 })
 
 
