@@ -12,6 +12,6 @@ const authMiddleware = asyncHandler(async(req, res, next) => {
             throw new Error('Not authorized.')
         }
     } else {
-        throw new Error('No token attached to ')
+        throw new Error('No token attached to head')
     }
 })
