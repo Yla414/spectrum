@@ -6,5 +6,5 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
-    console.log(`Server runnin on http://localhost:${PO}`);
+    console.log(`Server runnin on http://localhost:${POR}`);
 })
