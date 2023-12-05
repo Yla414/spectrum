@@ -43,7 +43,7 @@ var userSchema = new mongoose.Schema({
         ref: 'Product'
     },
 }, {
-    timestamps:
+    timestamps: true
 });
 
 userSchema.pre('save', async function(next) {
