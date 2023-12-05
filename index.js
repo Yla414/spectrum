@@ -15,6 +15,7 @@ app.use('/', (req, res) => {
     res.send('Hello from the server side!')
 })
 
+a
 
 // Start server
 app.listen(PORT, () => {
