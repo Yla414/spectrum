@@ -5,7 +5,7 @@ const dbConnect = require('./config/dbConnect');
 const app = express();
 
 const PORT = process.env.PORT || 3001;
-// Connect databse
+// Connect database
 dbConnect();
 
 app.use('/', (req, res) => {
