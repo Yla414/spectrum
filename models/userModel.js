@@ -33,7 +33,7 @@ var userSchema = new mongoose.Schema({
         type: Array,
         default: [],
     },
-    address: { {type: ObjectId, ref: "Address"} },
+    address: { {type: ObjectId, ref: "Address" } },
     wishlist: { type: ObjectId, ref: 'Product' },
     timestamps: true,
 });
