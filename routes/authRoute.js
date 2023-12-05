@@ -10,7 +10,7 @@ router.post('/register', createUser);
 router.post('/login', loginUserControl);
 // Ftech all users
 router.get('/all-users', getAllUsers)
-router.get('/all-users', getUsers)
+router.get('/all-users', getOnUsers)
 
 
 module.exports = router;
