@@ -51,7 +51,7 @@ const getAllUsers = asyncHandler (async(req, res) => {
 const getOneUser = asyncHandler(async(req, res) => {
     const {id} = req.params;
     try {
-
+        const getUs
     } catch (error) {
         throw new Error(error);
     }
