@@ -30,7 +30,7 @@ var userSchema = new mongoose.Schema({
         default: 'user',
     },
     cart: {
-        type
+        type: Array,
     }
 });
 
