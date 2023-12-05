@@ -36,7 +36,7 @@ const loginUserControl = asyncHandler(async(req, res) => {
     }
 });
 
-// Updat
+// Update  use
 
 
 // Fetch all users
