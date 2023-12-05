@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3001;
 // Connect database
 dbConnect();
 // 
-app.use(bodyParser.urlencoded (exten));
+app.use(bodyParser.urlencoded (e));
 app.use('/api/user', authRoutes);
 
 // Start server
