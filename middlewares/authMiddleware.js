@@ -27,7 +27,9 @@ const isAdmin = asyncHandler(async(req, res, next) => {
 
     if(adminUser.role !== "admin") {
         throw new Error('You are not an admin...!')
-    } else {}
+    } else {
+        
+    }
 })
 
 module.exports = { authMiddleware, isAdmin };
