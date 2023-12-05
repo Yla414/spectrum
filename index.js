@@ -4,7 +4,7 @@ const dbConnect = require('./config/dbConnect');
 
 const app = express();
 
-// Create por
+// Create port
 const PORT = process.env.PORT || 3001;
 // Connect database
 dbConnect();
